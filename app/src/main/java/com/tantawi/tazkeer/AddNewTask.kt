@@ -46,12 +46,10 @@ class AddNewTask : Fragment() {
         val disabledGray = ContextCompat.getColor(requireContext(), R.color.disabled_gray)
         val selectedGreen = ContextCompat.getColor(requireContext(), R.color.selected_green)
 
-        // Close
         view.findViewById<ImageView>(R.id.btnClose).setOnClickListener {
             parentFragmentManager.popBackStack()
         }
 
-        // TIME
         etTime.setOnClickListener {
             val calendar = Calendar.getInstance()
             TimePickerDialog(
@@ -66,7 +64,6 @@ class AddNewTask : Fragment() {
             ).show()
         }
 
-        // CATEGORY
         val btnStudy = view.findViewById<Button>(R.id.btnStudy)
         val btnWork = view.findViewById<Button>(R.id.btnWork)
         val btnSport = view.findViewById<Button>(R.id.btnSport)
@@ -93,7 +90,6 @@ class AddNewTask : Fragment() {
         btnMedicine.setOnClickListener { selectCategory(btnMedicine, "دواء") }
         btnOther.setOnClickListener { selectCategory(btnOther, "أخرى") }
 
-        // REPEAT
         val btnOnce = view.findViewById<Button>(R.id.btnOnce)
         val btnDaily = view.findViewById<Button>(R.id.btnDaily)
         val btnCustom = view.findViewById<Button>(R.id.btnCustom)
@@ -116,7 +112,6 @@ class AddNewTask : Fragment() {
         btnOnce.setOnClickListener { selectRepeat(btnOnce, "مرة واحدة") }
         btnDaily.setOnClickListener { selectRepeat(btnDaily, "يومي") }
 
-        // TEXT WATCHER
         val watcher = object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
@@ -130,11 +125,12 @@ class AddNewTask : Fragment() {
 
         checkForm()
 
-        btnSave.setOnClickListener {
-            if (btnSave.isEnabled) {
-                // save
-            }
-        }
+//        btnSave.setOnClickListener {
+//            if (btnSave.isEnabled) {
+//
+//            }
+//
+//        }
 
         view.findViewById<Button>(R.id.btnCancel)
             .setOnClickListener { parentFragmentManager.popBackStack() }
