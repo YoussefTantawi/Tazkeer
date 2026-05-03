@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#000000</color>
+    <color name="background_light">#000000</color>
+    <color name="bottom_nav_dark">#1F2937</color>
+    <color name="bottom_nav_light">#1F2937</color>
+    <color name="card_beige">#1F2937</color>
+    <color name="card_gold">#1F2937</color>
+    <color name="card_green">#1F2937</color>
+    <color name="card_mint">#1F2937</color>
+    <color name="card_priority_high">#1F2937</color>
+    <color name="card_priority_low">#1F2937</color>
+    <color name="card_priority_medium">#1F2937</color>
+    <color name="deep_green">#0B1D17</color>
+    <color name="disabled_color">#E5E7EB</color>
+    <color name="error_color">#D32F2F</color>
+    <color name="gold">#F4B942</color>
+    <color name="green">#0F5C4C</color>
+    <color name="green_dark">#0F5C4C</color>
+    <color name="surface_dark">#1F2937</color>
+    <color name="surface_light">#1F2937</color>
+    <color name="text_on_gray">#1F2937</color>
+    <color name="text_on_teal">#E5E7EB</color>
+    <color name="text_primary_dark">#E5E7EB</color>
+    <color name="text_primary_light">#E5E7EB</color>
+    <color name="text_secondary_dark">#CBD5E1</color>
+    <color name="text_secondary_light">#CBD5E1</color>
+    <style name="Theme.Tazkeer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/bottom_nav_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+    <style name="Theme.Tazkeer.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_tazkeer_logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/surface_dark</item>
+        <item name="postSplashScreenTheme">@style/Theme.Tazkeer</item>
+    </style>
+</resources>

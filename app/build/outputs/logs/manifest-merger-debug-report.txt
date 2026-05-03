@@ -1,0 +1,446 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:1:1-61:12
+INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:1:1-61:12
+INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:1:1-61:12
+INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:1:1-61:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8c48485ce1406f83f850669e804b04b8\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\7da0b0bf704402c7ea47b95c72e19231\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-splashscreen:1.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\49693e286857e26b42128f5d21aa22b7\transformed\core-splashscreen-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\11fce0a96c9eb50e39cbb109d2014dbe\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\1f8478ebe44917a15ed97a3f0f50c9fb\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b66378db1099ac8cd91a91e2dbff0409\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\017c0a228fba312d882c6e8cf2ba85ec\transformed\recyclerview-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\4a6b131693b5c342cd072a537379d36e\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0bde0a144b056ac1719d9e3d88d99e67\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\883beecaef128b11a44db80cab3a7b56\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0f72b66e8f4b0248ad69022d72b3f406\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6647531a55778b0eb556dc683ff4cbd1\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\907f8a5ec12bc0f895a9e4d96daf189b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\39dc769efaac641fc3a30ccac332db0e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b2985bf1113b1446e412c0af21a991a3\transformed\play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\17827d208e84c4a4856a27120a6cf2d4\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\d2cd8fd2f93ad94199560e6b73ae5816\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8898e1723762dad0eda3e9b5a2cd3b7d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\04ce4fb6a26c973aaf7c97d0fc3e9961\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\a379efe0c4751a491714c7f866370eac\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\c44ee85adfad86759027cd32d2158ac1\transformed\activity-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b5682c753e39b438e0b3699b3fcebae5\transformed\activity-1.13.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6de6219aaf61fac76909ac9aa2dff3e1\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5e3facdfa25df06b7705e16aeb9005dd\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\40b6ce72ad31a07711188c3574d8eedd\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\d66f74b3e56c257f9bb9aaa9dc8c715e\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\273875a0b93664ac783af71739862279\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2fb1c8d3c716f2b8f6239473c591c7f6\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\eb066bf13fd1d12e7ffb24dd4f302a73\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\9b9a5765a71c993b44acb1daf97146b3\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\33430f3f089c8a29434954dacbcc4fb5\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8d728f574ab5c0fb64d103877b037b2d\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5e0150307b1e2297c3db8ed56c36675b\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\20da6f7c89a08ad92181659a3544b134\transformed\core-ktx-1.18.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2b869a240affd12b5baf11de7c23db19\transformed\room-ktx-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5d2ccc99f12e0f523f9550a39e073fc4\transformed\navigationevent\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5d3391431493671486fc2e9651215797\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\a4cff7e7a493619f2d13f337465965f9\transformed\annotation-experimental-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\77e4cc5d609d3aed18f284ce22bafd37\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0210ef314bbbcea553ad507bf7c6b27c\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\80af4debc7e1ce0fe4a0bf88e2db9181\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\82e2ed53881708af31eb8683a4bdacb8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5b055a0497a17de53b45d817460bc878\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\10b1f6587e848daee486b968f818adde\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2e015119b782b103872b7424dc687026\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\dd76e8690c63e93b28860f02501d6f27\transformed\sqlite-framework\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\879c608a6101a572b714b957207d6319\transformed\sqlite\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\e2e0b5ea51e3d90f023e5b23fad8c145\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:1:11-69
+queries
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:3:5-13:15
+package#com.whatsapp
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:4:9-48
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:4:18-45
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:5:9-8:18
+action#android.intent.action.VIEW
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:6:13-65
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:6:21-62
+data
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:7:13-44
+	android:scheme
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:7:19-41
+	android:mimeType
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:11:19-48
+intent#action:name:android.intent.action.SEND+data:mimeType:text/plain
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:9:9-12:18
+action#android.intent.action.SEND
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:10:13-65
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:10:21-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:19:5-77
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:19:22-74
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:21:22-78
+application
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:23:5-60:19
+INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:23:5-60:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8c48485ce1406f83f850669e804b04b8\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8c48485ce1406f83f850669e804b04b8\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\7da0b0bf704402c7ea47b95c72e19231\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\7da0b0bf704402c7ea47b95c72e19231\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b2985bf1113b1446e412c0af21a991a3\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b2985bf1113b1446e412c0af21a991a3\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\17827d208e84c4a4856a27120a6cf2d4\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\17827d208e84c4a4856a27120a6cf2d4\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\82e2ed53881708af31eb8683a4bdacb8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\82e2ed53881708af31eb8683a4bdacb8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\10b1f6587e848daee486b968f818adde\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\10b1f6587e848daee486b968f818adde\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:26:9-41
+	android:roundIcon
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:27:9-52
+	android:icon
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:25:9-47
+	android:allowBackup
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:29:9-45
+activity#com.tantawi.tazkeer.SettingsActivity
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:32:13-45
+activity#com.tantawi.tazkeer.CompletedTasksActivity
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:36:13-51
+activity#com.tantawi.tazkeer.HomeActivity
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:39:9-47:20
+	android:exported
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:42:13-58
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:40:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:45:27-74
+receiver#com.tantawi.tazkeer.receivers.NotificationReceiver
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:50:13-59
+receiver#com.tantawi.tazkeer.receivers.BootReceiver
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:53:9-59:20
+	android:exported
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:55:13-36
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:54:13-51
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:56:13-58:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:57:17-79
+	android:name
+		ADDED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml:57:25-76
+uses-sdk
+INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8c48485ce1406f83f850669e804b04b8\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8c48485ce1406f83f850669e804b04b8\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\7da0b0bf704402c7ea47b95c72e19231\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\7da0b0bf704402c7ea47b95c72e19231\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\49693e286857e26b42128f5d21aa22b7\transformed\core-splashscreen-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-splashscreen:1.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\49693e286857e26b42128f5d21aa22b7\transformed\core-splashscreen-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\11fce0a96c9eb50e39cbb109d2014dbe\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\11fce0a96c9eb50e39cbb109d2014dbe\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\1f8478ebe44917a15ed97a3f0f50c9fb\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\1f8478ebe44917a15ed97a3f0f50c9fb\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b66378db1099ac8cd91a91e2dbff0409\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b66378db1099ac8cd91a91e2dbff0409\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\017c0a228fba312d882c6e8cf2ba85ec\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\017c0a228fba312d882c6e8cf2ba85ec\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\4a6b131693b5c342cd072a537379d36e\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\4a6b131693b5c342cd072a537379d36e\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0bde0a144b056ac1719d9e3d88d99e67\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0bde0a144b056ac1719d9e3d88d99e67\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\883beecaef128b11a44db80cab3a7b56\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\883beecaef128b11a44db80cab3a7b56\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0f72b66e8f4b0248ad69022d72b3f406\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0f72b66e8f4b0248ad69022d72b3f406\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6647531a55778b0eb556dc683ff4cbd1\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6647531a55778b0eb556dc683ff4cbd1\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\907f8a5ec12bc0f895a9e4d96daf189b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\907f8a5ec12bc0f895a9e4d96daf189b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\39dc769efaac641fc3a30ccac332db0e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\39dc769efaac641fc3a30ccac332db0e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b2985bf1113b1446e412c0af21a991a3\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b2985bf1113b1446e412c0af21a991a3\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\17827d208e84c4a4856a27120a6cf2d4\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\17827d208e84c4a4856a27120a6cf2d4\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\d2cd8fd2f93ad94199560e6b73ae5816\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\d2cd8fd2f93ad94199560e6b73ae5816\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8898e1723762dad0eda3e9b5a2cd3b7d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8898e1723762dad0eda3e9b5a2cd3b7d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\04ce4fb6a26c973aaf7c97d0fc3e9961\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\04ce4fb6a26c973aaf7c97d0fc3e9961\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\a379efe0c4751a491714c7f866370eac\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\a379efe0c4751a491714c7f866370eac\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\c44ee85adfad86759027cd32d2158ac1\transformed\activity-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\c44ee85adfad86759027cd32d2158ac1\transformed\activity-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b5682c753e39b438e0b3699b3fcebae5\transformed\activity-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\b5682c753e39b438e0b3699b3fcebae5\transformed\activity-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6de6219aaf61fac76909ac9aa2dff3e1\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6de6219aaf61fac76909ac9aa2dff3e1\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5e3facdfa25df06b7705e16aeb9005dd\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5e3facdfa25df06b7705e16aeb9005dd\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\40b6ce72ad31a07711188c3574d8eedd\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\40b6ce72ad31a07711188c3574d8eedd\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\d66f74b3e56c257f9bb9aaa9dc8c715e\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\d66f74b3e56c257f9bb9aaa9dc8c715e\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\273875a0b93664ac783af71739862279\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\273875a0b93664ac783af71739862279\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2fb1c8d3c716f2b8f6239473c591c7f6\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2fb1c8d3c716f2b8f6239473c591c7f6\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\eb066bf13fd1d12e7ffb24dd4f302a73\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\eb066bf13fd1d12e7ffb24dd4f302a73\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\9b9a5765a71c993b44acb1daf97146b3\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\9b9a5765a71c993b44acb1daf97146b3\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\33430f3f089c8a29434954dacbcc4fb5\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\33430f3f089c8a29434954dacbcc4fb5\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8d728f574ab5c0fb64d103877b037b2d\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8d728f574ab5c0fb64d103877b037b2d\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5e0150307b1e2297c3db8ed56c36675b\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5e0150307b1e2297c3db8ed56c36675b\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\20da6f7c89a08ad92181659a3544b134\transformed\core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\20da6f7c89a08ad92181659a3544b134\transformed\core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2b869a240affd12b5baf11de7c23db19\transformed\room-ktx-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2b869a240affd12b5baf11de7c23db19\transformed\room-ktx-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5d2ccc99f12e0f523f9550a39e073fc4\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5d2ccc99f12e0f523f9550a39e073fc4\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5d3391431493671486fc2e9651215797\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5d3391431493671486fc2e9651215797\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\a4cff7e7a493619f2d13f337465965f9\transformed\annotation-experimental-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\a4cff7e7a493619f2d13f337465965f9\transformed\annotation-experimental-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\77e4cc5d609d3aed18f284ce22bafd37\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\77e4cc5d609d3aed18f284ce22bafd37\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0210ef314bbbcea553ad507bf7c6b27c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0210ef314bbbcea553ad507bf7c6b27c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\80af4debc7e1ce0fe4a0bf88e2db9181\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\80af4debc7e1ce0fe4a0bf88e2db9181\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\82e2ed53881708af31eb8683a4bdacb8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\82e2ed53881708af31eb8683a4bdacb8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5b055a0497a17de53b45d817460bc878\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\5b055a0497a17de53b45d817460bc878\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\10b1f6587e848daee486b968f818adde\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\10b1f6587e848daee486b968f818adde\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2e015119b782b103872b7424dc687026\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\2e015119b782b103872b7424dc687026\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\dd76e8690c63e93b28860f02501d6f27\transformed\sqlite-framework\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\dd76e8690c63e93b28860f02501d6f27\transformed\sqlite-framework\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\879c608a6101a572b714b957207d6319\transformed\sqlite\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\879c608a6101a572b714b957207d6319\transformed\sqlite\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\e2e0b5ea51e3d90f023e5b23fad8c145\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\e2e0b5ea51e3d90f023e5b23fad8c145\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\82e2ed53881708af31eb8683a4bdacb8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\82e2ed53881708af31eb8683a4bdacb8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\8dd24f4ed49590d58278241ec3a675a2\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\6edd481b275061426c34718aa701e276\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\569865def954d2cf6c865549d51348d2\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+permission#com.tantawi.tazkeer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+uses-permission#com.tantawi.tazkeer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\f64bac031fd0ef38d0143f57d9382b4c\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e4f23390b24379223bfea2c7ae6e62d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime-android:2.8.2] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\26466ea120d09b9210ddd1e0576449fe\transformed\room-runtime\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\MeRo\.gradle\caches\9.5.0\transforms\0e90bcdab9a1510bbe98f5c4da332a40\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

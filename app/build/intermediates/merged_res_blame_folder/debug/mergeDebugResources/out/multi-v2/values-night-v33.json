@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tantawi.tazkeer.app-mergeDebugResources-42:/values-night-v33/values-night-v33.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MeRo\\.gradle\\caches\\9.5.0\\transforms\\49693e286857e26b42128f5d21aa22b7\\transformed\\core-splashscreen-1.2.0\\res\\values-night-v33\\values-night-v33.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "215"
+                    }
+                }
+            ]
+        }
+    ]
+}

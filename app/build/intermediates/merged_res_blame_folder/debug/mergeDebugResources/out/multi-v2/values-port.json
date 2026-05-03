@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tantawi.tazkeer.app-mergeDebugResources-42:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MeRo\\.gradle\\caches\\9.5.0\\transforms\\1f8478ebe44917a15ed97a3f0f50c9fb\\transformed\\appcompat-1.7.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="category_options">
+        <item>@string/category_work</item>
+        <item>@string/category_study</item>
+        <item>@string/category_prayer</item>
+        <item>@string/category_azkar</item>
+        <item>@string/category_family</item>
+        <item>@string/category_personal</item>
+        <item>@string/category_health</item>
+        <item>@string/category_fitness</item>
+        <item>@string/category_other</item>
+    </string-array>
+    <string-array name="priority_options">
+        <item>@string/priority_high</item>
+        <item>@string/priority_medium</item>
+        <item>@string/priority_low</item>
+    </string-array>
+    <string-array name="recurrence_options">
+        <item>@string/recurrence_once</item>
+        <item>@string/recurrence_daily</item>
+        <item>@string/recurrence_custom</item>
+    </string-array>
+    <string name="activate_summary_section">تفعيل قسم الملخص</string>
+    <string name="activate_upcoming_task_section">تفعيل قسم المهمة القادمة</string>
+    <string name="add_task">إضافة مهمة</string>
+    <string name="app_description">مهام يومية وتذكيرات إسلامية مع إشعارات الصلاة.</string>
+    <string name="app_info">معلومات التطبيق</string>
+    <string name="app_name">تذكير</string>
+    <string name="app_version">الإصدار 1.0</string>
+    <string name="arabic">العربية</string>
+    <string name="azkar_after_prayer">أذكار بعد الصلاة</string>
+    <string name="azkar_evening">أذكار المساء</string>
+    <string name="azkar_morning">أذكار الصباح</string>
+    <string name="azkar_sleep">أذكار النوم</string>
+    <string name="bottom_completed">المكتملة</string>
+    <string name="bottom_home">الرئيسية</string>
+    <string name="bottom_settings">الإعدادات</string>
+    <string name="cancel">إلغاء</string>
+    <string name="category">التصنيف</string>
+    <string name="category_azkar">أذكار</string>
+    <string name="category_family">العائلة</string>
+    <string name="category_fitness">لياقة</string>
+    <string name="category_health">صحة</string>
+    <string name="category_other">أخرى</string>
+    <string name="category_personal">شخصي</string>
+    <string name="category_prayer">صلاة</string>
+    <string name="category_study">دراسة</string>
+    <string name="category_work">عمل</string>
+    <string name="close">إغلاق</string>
+    <string name="complete">إكمال</string>
+    <string name="completed_title">المهام المكتملة</string>
+    <string name="contact_message">السلام عليكم، أود الاستفسار عن تحديثات تطبيق تذكير. شكرا لكم.</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="content_complete_azkar">إكمال الذكر</string>
+    <string name="content_complete_prayer">إكمال الصلاة</string>
+    <string name="content_complete_task">إكمال المهمة</string>
+    <string name="content_delete_task">حذف المهمة</string>
+    <string name="content_edit_task">تعديل المهمة</string>
+    <string name="content_logo">شعار تذكير</string>
+    <string name="content_search_azkar">البحث عن الاذكار</string>
+    <string name="content_sort">ترتيب المهام</string>
+    <string name="content_uncomplete_task">إعادة المهمة للشاشة الرئيسية</string>
+    <string name="countdown_hours">بعد %1$d ساعة</string>
+    <string name="countdown_hours_minutes">بعد %1$d ساعة و %2$d دقيقة</string>
+    <string name="countdown_minutes">بعد %1$d دقيقة</string>
+    <string name="countdown_now">الآن</string>
+    <string name="custom_category">تصنيف مخصص</string>
+    <string name="custom_category_required">التصنيف المخصص مطلوب</string>
+    <string name="custom_day_required">اختر يوما واحدا على الأقل</string>
+    <string name="custom_days">الأيام المخصصة</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="dark_mode_changed">تم تغيير الوضع الداكن</string>
+    <string name="day_friday">الجمعة</string>
+    <string name="day_monday">الإثنين</string>
+    <string name="day_saturday">السبت</string>
+    <string name="day_sunday">الأحد</string>
+    <string name="day_thursday">الخميس</string>
+    <string name="day_tuesday">الثلاثاء</string>
+    <string name="day_wednesday">الأربعاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="edit_task">تعديل المهمة</string>
+    <string name="empty_completed_tasks">لا توجد مهام مكتملة بعد</string>
+    <string name="empty_tasks">لا توجد مهام اليوم</string>
+    <string name="english">الإنجليزية</string>
+    <string name="external_app_missing">لا يوجد تطبيق متاح لتنفيذ هذا الإجراء</string>
+    <string name="hide">إخفاء</string>
+    <string name="home_title">مهام اليوم</string>
+    <string name="language">اللغة</string>
+    <string name="language_changed">تم تغيير اللغة</string>
+    <string name="loading_prayers" tools:ignore="TypographyEllipsis">جار تحميل مواقيت الصلاة...</string>
+    <string name="location_services_disabled">خدمة الموقع مغلقة. يرجى تفعيلها من الإعدادات.</string>
+    <string name="location_unavailable">تعذر الحصول على الموقع الحالي</string>
+    <string name="location_updated">تم تحديث الموقع</string>
+    <string name="no_description">لا يوجد وصف</string>
+    <string name="no_internet_no_cache">لا يوجد اتصال بالإنترنت ولا توجد مواقيت محفوظة بعد</string>
+    <string name="no_internet_using_cache">لا يوجد اتصال بالإنترنت، سيتم استخدام آخر مواقيت محفوظة</string>
+    <string name="no_prayer_times">مواقيت الصلاة غير متاحة بعد</string>
+    <string name="no_upcoming_task">لا توجد مهمة قادمة</string>
+    <string name="notification_action_mark_completed">إكمال المهمة</string>
+    <string name="notification_action_show_details">عرض التفاصيل</string>
+    <string name="notification_channel_prayers">تذكيرات الصلاة</string>
+    <string name="notification_channel_tasks">تذكيرات المهام</string>
+    <string name="notification_schedule_warning">تم حفظ المهمة، لكن تعذر جدولة الإشعار</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="notifications_disabled">تم إيقاف الإشعارات</string>
+    <string name="notifications_enabled">تم تشغيل الإشعارات</string>
+    <string name="permission_required">الصلاحية مطلوبة</string>
+    <string name="pick_time">اختيار الوقت</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_before_body">صلاة %1$s بعد 10 دقائق</string>
+    <string name="prayer_dhuhr">الظهر</string>
+    <string name="prayer_exact_body">حان الآن وقت صلاة %1$s</string>
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_isha">العشاء</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_reminder_title">تذكير بالصلاة</string>
+    <string name="prayer_sunrise">الشروق</string>
+    <string name="prayer_time_title">وقت الصلاة</string>
+    <string name="preferences_reset">تمت إعادة ضبط الإعدادات</string>
+    <string name="priority">الأولوية</string>
+    <string name="priority_high">عالية</string>
+    <string name="priority_low">منخفضة</string>
+    <string name="priority_medium">متوسطة</string>
+    <string name="protected_task_message">لا يمكن تعديل أو حذف مهام الصلاة والأذكار</string>
+    <string name="recurrence">التكرار</string>
+    <string name="recurrence_custom">مخصص</string>
+    <string name="recurrence_daily">يوميا</string>
+    <string name="recurrence_once">مرة واحدة</string>
+    <string name="reset_preferences">إعادة ضبط الإعدادات</string>
+    <string name="save">حفظ</string>
+    <string name="search_after_prayer_azkar">أذكار بعد الصلاة</string>
+    <string name="search_evening_azkar">أذكار المساء</string>
+    <string name="search_morning_azkar">أذكار الصباح</string>
+    <string name="search_sleep_azkar">أذكار النوم</string>
+    <string name="section_after_asr">بعد العصر</string>
+    <string name="section_after_dhuhr">بعد الظهر</string>
+    <string name="section_after_fajr">بعد الفجر</string>
+    <string name="section_after_isha">بعد العشاء</string>
+    <string name="section_after_maghrib">بعد المغرب</string>
+    <string name="section_azkar">الأذكار</string>
+    <string name="section_high_priority">اولوية عالية</string>
+    <string name="section_low_priority">اولوية منخفضة</string>
+    <string name="section_medium_priority">اولوية متوسطة</string>
+    <string name="section_prayers">مواقيت الصلاة</string>
+    <string name="section_summary">الملخص</string>
+    <string name="section_tasks">المهام</string>
+    <string name="section_upcoming_task">المهمة القادمة</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="share_message">جرب تطبيق تذكير للمهام ومواقيت الصلاة والأذكار: https://play.google.com/store/apps/details?id=com.tantawi.tazkeer</string>
+    <string name="show">إظهار</string>
+    <string name="sort_by_category">ترتيب حسب التصنيف</string>
+    <string name="sort_by_priority">ترتيب حسب الأولوية</string>
+    <string name="sort_by_time">ترتيب حسب الوقت</string>
+    <string name="sorted_by_category">تم الترتيب حسب التصنيف</string>
+    <string name="sorted_by_priority">تم الترتيب حسب الأولوية</string>
+    <string name="sorted_by_time">تم الترتيب حسب الوقت</string>
+    <string name="summary_athkar">الأذكار</string>
+    <string name="summary_prayers">الصلوات</string>
+    <string name="summary_tasks">المهام</string>
+    <string name="task_before_body">تبدأ مهمة %1$s بعد 10 دقائق</string>
+    <string name="task_completed">تم إكمال المهمة</string>
+    <string name="task_deleted_successfully">تم حذف المهمة بنجاح</string>
+    <string name="task_description">الوصف</string>
+    <string name="task_details">تفاصيل المهمة</string>
+    <string name="task_exact_body">حان وقت %1$s</string>
+    <string name="task_not_found">لم يتم العثور على المهمة</string>
+    <string name="task_reminder_title">تذكير بالمهمة</string>
+    <string name="task_restored">تم إستعادة المهمة</string>
+    <string name="task_saved_successfully">تم حفظ المهمة بنجاح</string>
+    <string name="task_time">وقت المهمة</string>
+    <string name="task_time_title">وقت المهمة</string>
+    <string name="task_time_value">%1$s: %2$s</string>
+    <string name="task_title">العنوان</string>
+    <string name="task_updated_successfully">تم تحديث المهمة بنجاح</string>
+    <string name="time_format_24h">استخدام نظام 24 ساعة</string>
+    <string name="time_format_changed">تم تغيير تنسيق مواقيت الصلاة</string>
+    <string name="time_required">الوقت مطلوب</string>
+    <string name="title_required">العنوان مطلوب</string>
+    <string name="update_location">تحديث الموقع تلقائيا</string>
+    <string name="use_arabic_language">اللغة العربية</string>
+    <string name="whatsapp_fallback">https://wa.me/201155194769</string>
+</resources>

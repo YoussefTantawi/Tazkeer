@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/taskCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="?attr/colorSurface"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp">
+
+            <CheckBox
+                android:id="@+id/taskCheckBox"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/content_complete_task"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/taskTitleText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/taskAzkarSearchButton"
+                app:layout_constraintStart_toEndOf="@id/taskCheckBox"
+                app:layout_constraintTop_toTopOf="@id/taskCheckBox" />
+
+            <TextView
+                android:id="@+id/taskDescriptionText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@id/taskTitleText"
+                app:layout_constraintStart_toStartOf="@id/taskTitleText"
+                app:layout_constraintTop_toBottomOf="@id/taskTitleText" />
+
+            <ImageButton
+                android:id="@+id/taskAzkarSearchButton"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/content_search_azkar"
+                android:src="@drawable/ic_search"
+                android:visibility="gone"
+                app:layout_constraintEnd_toStartOf="@id/taskEditButton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/taskEditButton"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/content_edit_task"
+                android:src="@drawable/ic_edit"
+                app:layout_constraintEnd_toStartOf="@id/taskDeleteButton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/taskDeleteButton"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/content_delete_task"
+                android:src="@drawable/ic_delete"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/taskTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@id/taskTitleText"
+                app:layout_constraintTop_toBottomOf="@id/taskDescriptionText" />
+
+            <TextView
+                android:id="@+id/taskCategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_chip"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="13sp"
+                app:layout_constraintBaseline_toBaselineOf="@id/taskTimeText"
+                app:layout_constraintStart_toEndOf="@id/taskCategoryIcon" />
+
+            <ImageView
+                android:id="@+id/taskCategoryIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/category"
+                app:layout_constraintBottom_toBottomOf="@id/taskCategoryText"
+                app:layout_constraintStart_toEndOf="@id/taskTimeText"
+                app:layout_constraintTop_toTopOf="@id/taskCategoryText"
+                app:tint="@color/green" />
+
+            <TextView
+                android:id="@+id/taskPriorityText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="13sp"
+                app:layout_constraintBaseline_toBaselineOf="@id/taskCategoryText"
+                app:layout_constraintStart_toEndOf="@id/taskCategoryText" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
