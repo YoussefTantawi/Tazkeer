@@ -1,3 +1,185 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Tazkeer</string>
+    <string name="home_title">Today\'s Tasks</string>
+    <string name="completed_title">Completed Tasks</string>
+    <string name="settings_title">Settings</string>
+    <string name="bottom_home">Home</string>
+    <string name="bottom_completed">Completed</string>
+    <string name="bottom_settings">Settings</string>
+    <string name="sort_by_category">Sort by Category</string>
+    <string name="sort_by_priority">Sort by Priority</string>
+    <string name="sort_by_time">Sort by Time</string>
+    <string name="sorted_by_category">Sorted by category</string>
+    <string name="sorted_by_priority">Sorted by priority</string>
+    <string name="sorted_by_time">Sorted by time</string>
+    <string name="section_summary">Summary</string>
+    <string name="section_upcoming_task">Upcoming Task</string>
+    <string name="section_prayers">Prayers</string>
+    <string name="section_azkar">Azkar</string>
+    <string name="section_tasks">Tasks</string>
+    <string name="section_high_priority">High Priority</string>
+    <string name="section_medium_priority">Medium Priority</string>
+    <string name="section_low_priority">Low Priority</string>
+    <string name="section_after_fajr">After Fajr</string>
+    <string name="section_after_dhuhr">After Dhuhr</string>
+    <string name="section_after_asr">After Asr</string>
+    <string name="section_after_maghrib">After Maghrib</string>
+    <string name="section_after_isha">After Isha</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="summary_tasks">Tasks</string>
+    <string name="summary_athkar">Athkar</string>
+    <string name="summary_prayers">Prayers</string>
+    <string name="add_task">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="task_details">Task Details</string>
+    <string name="task_time">Task time</string>
+    <string name="task_time_value">%1$s: %2$s</string>
+    <string name="pick_time">Pick time</string>
+    <string name="category">Category</string>
+    <string name="custom_category">Custom category</string>
+    <string name="priority">Priority</string>
+    <string name="recurrence">Recurrence</string>
+    <string name="custom_days">Custom days</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="complete">Complete</string>
+    <string name="close">Close</string>
+    <string name="title_required">Title is required</string>
+    <string name="time_required">Time is required</string>
+    <string name="custom_category_required">Custom category is required</string>
+    <string name="custom_day_required">Select at least one day</string>
+    <string name="task_saved_successfully">Task saved successfully</string>
+    <string name="task_updated_successfully">Task updated successfully</string>
+    <string name="task_deleted_successfully">Task deleted successfully</string>
+    <string name="task_completed">Task completed</string>
+    <string name="task_restored">Task restored</string>
+    <string name="task_not_found">Task not found</string>
+    <string name="protected_task_message">Prayer and Azkar tasks cannot be edited or deleted</string>
+    <string name="no_description">No description</string>
+    <string name="empty_tasks">No tasks for today</string>
+    <string name="empty_completed_tasks">No completed tasks yet</string>
+    <string name="no_upcoming_task">No upcoming task</string>
+    <string name="countdown_now">Now</string>
+    <string name="countdown_minutes">In %1$d minutes</string>
+    <string name="countdown_hours">In %1$d hours</string>
+    <string name="countdown_hours_minutes">In %1$d hours %2$d minutes</string>
+    <string name="loading_prayers" tools:ignore="TypographyEllipsis">Loading prayer times...</string>
+    <string name="no_prayer_times">Prayer times are not available yet</string>
+    <string name="no_internet_using_cache">No internet connection, using last saved prayer times</string>
+    <string name="no_internet_no_cache">No internet connection and no saved prayer times yet</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="language">Language</string>
+    <string name="use_arabic_language">Arabic language</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="time_format_24h">Use 24-hour format</string>
+    <string name="time_format_changed">Prayer time format changed</string>
+    <string name="activate_summary_section">Activate Summary Section</string>
+    <string name="activate_upcoming_task_section">Activate Upcoming Task Section</string>
+    <string name="update_location">Update location automatically</string>
+    <string name="notifications">Notifications</string>
+    <string name="reset_preferences">Reset preferences</string>
+    <string name="contact_us">Contact us</string>
+    <string name="share_app">Share app</string>
+    <string name="app_info">App info</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="app_description">Daily tasks and Islamic reminders with prayer notifications.</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_services_disabled">Location service is off. Please enable it from settings.</string>
+    <string name="location_unavailable">Could not get current location</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="permission_required">Permission required</string>
+    <string name="preferences_reset">Preferences reset</string>
+    <string name="language_changed">Language changed</string>
+    <string name="dark_mode_changed">Dark mode changed</string>
+    <string name="notification_schedule_warning">Task saved, but its notification could not be scheduled</string>
+    <string name="external_app_missing">No app is available to handle this action</string>
+    <string name="share_message">Try Tazkeer for tasks, prayer times, and Islamic reminders: https://play.google.com/store/apps/details?id=com.tantawi.tazkeer</string>
+    <string name="contact_message">Assalamu alaikum, I would like to ask about Tazkeer updates. Thank you.</string>
+    <string name="whatsapp_fallback">https://wa.me/201155194769</string>
+    <string name="category_work">Work</string>
+    <string name="category_study">Study</string>
+    <string name="category_family">Family</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_health">Health</string>
+    <string name="category_fitness">Fitness</string>
+    <string name="category_other">Others</string>
+    <string name="category_prayer">Prayer</string>
+    <string name="category_azkar">Azkar</string>
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+    <string name="recurrence_once">Once</string>
+    <string name="recurrence_daily">Daily</string>
+    <string name="recurrence_custom">Custom</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="day_monday">Monday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_dhuhr">Dhuhr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_isha">Isha</string>
+    <string name="prayer_sunrise">Sunrise</string>
+    <string name="azkar_morning">Morning Azkar</string>
+    <string name="azkar_evening">Evening Azkar</string>
+    <string name="azkar_sleep">Sleep Azkar</string>
+    <string name="azkar_after_prayer">After Prayer Azkar</string>
+    <string name="search_morning_azkar">Morning Azkar</string>
+    <string name="search_evening_azkar">Evening Azkar</string>
+    <string name="search_sleep_azkar">Sleep Azkar</string>
+    <string name="search_after_prayer_azkar">After Prayer Azkar</string>
+    <string name="notification_channel_tasks">Task reminders</string>
+    <string name="notification_channel_prayers">Prayer reminders</string>
+    <string name="task_reminder_title">Task Reminder</string>
+    <string name="task_time_title">Task Time</string>
+    <string name="task_before_body">%1$s starts in 10 minutes</string>
+    <string name="task_exact_body">It is time for %1$s</string>
+    <string name="prayer_reminder_title">Prayer Reminder</string>
+    <string name="prayer_time_title">Prayer Time</string>
+    <string name="prayer_before_body">%1$s prayer is in 10 minutes</string>
+    <string name="prayer_exact_body">It is time for %1$s prayer</string>
+    <string name="notification_action_mark_completed">Mark as completed</string>
+    <string name="notification_action_show_details">Show details</string>
+    <string name="content_sort">Sort tasks</string>
+    <string name="content_logo">Tazkeer logo</string>
+    <string name="content_delete_task">Delete task</string>
+    <string name="content_edit_task">Edit task</string>
+    <string name="content_complete_task">Complete task</string>
+    <string name="content_uncomplete_task">Move task back to Home</string>
+    <string name="content_search_azkar">Search Azkar</string>
+    <string name="content_complete_prayer">Complete prayer</string>
+    <string name="content_complete_azkar">Complete Azkar</string>
+
+    <string-array name="category_options">
+        <item>@string/category_work</item>
+        <item>@string/category_study</item>
+        <item>@string/category_prayer</item>
+        <item>@string/category_azkar</item>
+        <item>@string/category_family</item>
+        <item>@string/category_personal</item>
+        <item>@string/category_health</item>
+        <item>@string/category_fitness</item>
+        <item>@string/category_other</item>
+    </string-array>
+    <string-array name="priority_options">
+        <item>@string/priority_high</item>
+        <item>@string/priority_medium</item>
+        <item>@string/priority_low</item>
+    </string-array>
+    <string-array name="recurrence_options">
+        <item>@string/recurrence_once</item>
+        <item>@string/recurrence_daily</item>
+        <item>@string/recurrence_custom</item>
+    </string-array>
 </resources>
