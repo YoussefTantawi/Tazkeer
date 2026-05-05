@@ -1,8 +1,8 @@
-com.tantawi.tazkeer.app-pngs-0 C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\build\generated\res\pngs\debug
-com.tantawi.tazkeer.app-updated_navigation_xml-1 C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\build\generated\updated_navigation_xml\debug
-com.tantawi.tazkeer.app-packageDebugResources-2 C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.tantawi.tazkeer.app-packageDebugResources-3 C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.tantawi.tazkeer.app-debug-4 C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.tantawi.tazkeer.app-debug-5 C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\debug\res
-com.tantawi.tazkeer.app-main-6 C:\Users\MeRo\AndroidStudioProjects\Tazkeer\app\src\main\res
+com.tantawi.tazkeer.app-pngs-0 C:\Users\MeRo\Desktop\Tazkeer App\app\build\generated\res\pngs\debug
+com.tantawi.tazkeer.app-updated_navigation_xml-1 C:\Users\MeRo\Desktop\Tazkeer App\app\build\generated\updated_navigation_xml\debug
+com.tantawi.tazkeer.app-packageDebugResources-2 C:\Users\MeRo\Desktop\Tazkeer App\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.tantawi.tazkeer.app-packageDebugResources-3 C:\Users\MeRo\Desktop\Tazkeer App\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.tantawi.tazkeer.app-debug-4 C:\Users\MeRo\Desktop\Tazkeer App\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.tantawi.tazkeer.app-debug-5 C:\Users\MeRo\Desktop\Tazkeer App\app\src\debug\res
+com.tantawi.tazkeer.app-main-6 C:\Users\MeRo\Desktop\Tazkeer App\app\src\main\res
 gradleHome-0 C:\Users\MeRo\.gradle

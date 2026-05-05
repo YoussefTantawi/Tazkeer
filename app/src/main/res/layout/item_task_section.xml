@@ -27,12 +27,11 @@
             android:layout_height="36dp"
             android:minWidth="44dp"
             android:text=""
-            app:backgroundTint="@android:color/transparent"
             app:cornerRadius="8dp"
             app:icon="@drawable/ic_arrow_up"
             app:iconGravity="textStart"
             app:iconPadding="0dp"
-            app:iconTint="?attr/colorControlNormal"
+            app:iconTint="@color/text_on_teal"
             app:layout_constraintBottom_toBottomOf="@id/sectionTitleText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/sectionTitleText" />

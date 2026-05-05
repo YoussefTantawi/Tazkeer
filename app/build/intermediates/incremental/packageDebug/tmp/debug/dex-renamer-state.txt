@@ -1,14 +1,14 @@
-#Sun May 03 17:14:54 EEST 2026
-base.0=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.3=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.4=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.5=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.6=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.7=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\global_synthetics_dex\\debug\\generateDebugGlobalSynthetics\\classes.dex
-base.8=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\desugar_lib_dex\\debug\\l8DexDesugarLibDebug\\classes1000.dex
-base.9=C\:\\Users\\MeRo\\AndroidStudioProjects\\Tazkeer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue May 05 11:09:43 EEST 2026
+base.0=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.3=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.4=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.5=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.6=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.7=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\global_synthetics_dex\\debug\\generateDebugGlobalSynthetics\\classes.dex
+base.8=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\desugar_lib_dex\\debug\\l8DexDesugarLibDebug\\classes1000.dex
+base.9=C\:\\Users\\MeRo\\Desktop\\Tazkeer App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=15/classes.dex

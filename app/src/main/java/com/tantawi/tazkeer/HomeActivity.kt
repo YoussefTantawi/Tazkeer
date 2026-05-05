@@ -54,7 +54,6 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var summarySection: View
     private lateinit var summaryRecyclerView: RecyclerView
     private lateinit var taskSectionsContainer: LinearLayout
-    private lateinit var summaryToggleButton: MaterialButton
     private lateinit var upcomingSection: View
     private lateinit var upcomingCard: View
     private lateinit var upcomingEmptyText: TextView
@@ -96,7 +95,6 @@ class HomeActivity : AppCompatActivity() {
         emptyTasksText = findViewById(R.id.emptyTasksText)
         addEditContainer = findViewById(R.id.addEditContainer)
         summarySection = findViewById(R.id.summarySection)
-        summaryToggleButton = findViewById(R.id.summaryToggleButton)
         taskSectionsContainer = findViewById(R.id.taskSectionsContainer)
         upcomingSection = findViewById(R.id.upcomingSection)
         upcomingCard = findViewById(R.id.upcomingCard)
@@ -106,7 +104,6 @@ class HomeActivity : AppCompatActivity() {
         upcomingCountdownText = findViewById(R.id.upcomingTaskCountdownText)
 
         setupRecyclerViews()
-        setupSectionToggles()
         setupBottomNavigation()
         setupAddButton()
 
@@ -183,22 +180,11 @@ class HomeActivity : AppCompatActivity() {
         updateSummary()
     }
 
-    private fun setupSectionToggles() {
-        summaryToggleButton.setOnClickListener {
-            val newVisibility = !PreferencesHelper.isSectionVisible(this, SECTION_SUMMARY)
-            PreferencesHelper.setSectionVisible(this, SECTION_SUMMARY, newVisibility)
-            applySummaryVisibility()
-        }
-        applySummaryVisibility()
-        applyUpcomingVisibility()
-    }
-
     private fun applySummaryVisibility() {
         val enabled = PreferencesHelper.isSummarySectionEnabled(this)
         val expanded = PreferencesHelper.isSectionVisible(this, SECTION_SUMMARY)
         summarySection.visibility = if (enabled) View.VISIBLE else View.GONE
         summaryRecyclerView.visibility = if (enabled && expanded) View.VISIBLE else View.GONE
-        updateToggleIcon(summaryToggleButton, expanded)
     }
 
     private fun applyUpcomingVisibility() {

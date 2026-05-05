@@ -1,10 +1,9 @@
 <resources>
-    <color name="green">#0F5C4C</color>
-    <color name="green_dark">#0F5C4C</color>
-    <color name="deep_green">#0B1D17</color>
+    <color name="green">#059669</color>
+    <color name="green_dark">#059669</color>
     <color name="gold">#F4B942</color>
 
-    <color name="background_light">#F7F5F2</color>
+    <color name="background_light">#F8FAFC</color>
     <color name="background_dark">#1F2937</color>
     <color name="surface_light">#E5E7EB</color>
     <color name="surface_dark">#0B1D17</color>

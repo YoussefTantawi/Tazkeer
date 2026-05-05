@@ -1,198 +1,210 @@
 [
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_edit.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_edit.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_tazkeer_logo.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_tazkeer_logo.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_bg_clay_card.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/bg_clay_card.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_sort.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_sort.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_task_section.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_task_section.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_item_summary_card.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\item_summary_card.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_home.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_home.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\mipmap-hdpi_ic_tazkeer_logo.png.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\mipmap-hdpi\\ic_tazkeer_logo.png"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_azkar_card.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_azkar_card.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_work.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_work.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_activity_home.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/activity_home.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_arrow_up.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_arrow_up.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_bg_clay_card.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\bg_clay_card.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_prayer.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_prayer.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\color_switch_thumb_tint.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\color\\switch_thumb_tint.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_sort.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_sort.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_edit.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/mipmap-mdpi_ic_tazkeer_logo.png.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/mipmap-mdpi/ic_tazkeer_logo.png"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\activity_home.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_summary_card.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_summary_card.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_completed.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_completed.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_prayer_card.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_prayer_card.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_item_completed_day_header.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\item_completed_day_header.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_completed_task.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_completed_task.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_item_task_section.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\item_task_section.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_fitness.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_fitness.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_family.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_family.xml"
+    },
+    {
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_tazkeer_logo.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_tazkeer_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_bg_fragment_panel.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\bg_fragment_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\menu_menu_home.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\menu\\menu_home.xml"
     },
     {
         "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_bg_priority_medium.xml.flat",
         "source": "com.tantawi.tazkeer.app-main-46:/drawable/bg_priority_medium.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/menu_menu_home.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/menu/menu_home.xml"
-    },
-    {
         "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_bg_priority_high.xml.flat",
         "source": "com.tantawi.tazkeer.app-main-46:/drawable/bg_priority_high.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_completed_day_header.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_completed_day_header.xml"
-    },
-    {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_settings.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_settings.xml"
-    },
-    {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_fragment_add_edit_task.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/fragment_add_edit_task.xml"
-    },
-    {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_add.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\bg_chip.xml"
     },
     {
         "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_bg_priority_low.xml.flat",
         "source": "com.tantawi.tazkeer.app-main-46:/drawable/bg_priority_low.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/color_switch_track_tint.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/color/switch_track_tint.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_health.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_health.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_family.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_family.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_fragment_task_details.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\fragment_task_details.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_notification_old.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_notification_old.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_item_task.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\item_task.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/mipmap-xxhdpi_ic_tazkeer_logo.png.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/mipmap-xxhdpi/ic_tazkeer_logo.png"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_bg_priority_medium.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\bg_priority_medium.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_personal.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_personal.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_bg_priority_high.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\bg_priority_high.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_azkar.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_azkar.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\mipmap-xhdpi_ic_tazkeer_logo.png.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\mipmap-xhdpi\\ic_tazkeer_logo.png"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_completed.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_completed.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_others.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_others.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_bg_chip.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/bg_chip.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\color_switch_track_tint.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\color\\switch_track_tint.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/mipmap-hdpi_ic_tazkeer_logo.png.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/mipmap-hdpi/ic_tazkeer_logo.png"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_arrow_down.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_arrow_down.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_delete.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_delete.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_prayer.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_prayer.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_activity_completed_tasks.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/activity_completed_tasks.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_search.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_search.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_search.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_fragment_add_edit_task.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\fragment_add_edit_task.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_task.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_task.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_study.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_study.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_bg_fragment_panel.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/bg_fragment_panel.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\mipmap-mdpi_ic_tazkeer_logo.png.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\mipmap-mdpi\\ic_tazkeer_logo.png"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_study.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_study.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_notification.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_health.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_health.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\mipmap-xxhdpi_ic_tazkeer_logo.png.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\mipmap-xxhdpi\\ic_tazkeer_logo.png"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_work.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_work.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\menu_menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\menu\\menu_bottom_navigation.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/menu_menu_bottom_navigation.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/menu/menu_bottom_navigation.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_item_azkar_card.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\item_azkar_card.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_fragment_task_details.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/fragment_task_details.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_arrow_up.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_arrow_up.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_activity_settings.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/activity_settings.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_personal.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_personal.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/mipmap-xxxhdpi_ic_tazkeer_logo.png.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/mipmap-xxxhdpi/ic_tazkeer_logo.png"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_item_completed_task.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\item_completed_task.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_arrow_down.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_arrow_down.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_item_prayer_card.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\item_prayer_card.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_notification.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_notification.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_activity_completed_tasks.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\activity_completed_tasks.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/color_switch_thumb_tint.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/color/switch_thumb_tint.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_bg_priority_low.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\bg_priority_low.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/drawable_ic_category_others.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/drawable/ic_category_others.xml"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\mipmap-xxxhdpi_ic_tazkeer_logo.png.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\mipmap-xxxhdpi\\ic_tazkeer_logo.png"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/mipmap-xhdpi_ic_tazkeer_logo.png.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/mipmap-xhdpi/ic_tazkeer_logo.png"
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_azkar.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_azkar.xml"
+    },
+    {
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_category_fitness.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_fitness.xml"
+    },
+    {
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_notification_old.xml.flat",
+        "source": "C:\\Users\\MeRo\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_notification_old.xml"
     }
 ]

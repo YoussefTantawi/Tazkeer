@@ -1,30 +1,29 @@
 <resources>
-    <color name="green">#0F5C4C</color>
-    <color name="green_dark">#0F5C4C</color>
-    <color name="deep_green">#0B1D17</color>
+    <color name="green">#34D399</color>
+    <color name="green_dark">#34D399</color>
     <color name="gold">#F4B942</color>
 
-    <color name="background_light">#000000</color>
-    <color name="background_dark">#000000</color>
-    <color name="surface_light">#1F2937</color>
-    <color name="surface_dark">#1F2937</color>
+    <color name="background_light">#0b1014</color>
+    <color name="background_dark">#0b1014</color>
+    <color name="surface_light">#23282c</color>
+    <color name="surface_dark">#23282c</color>
 
     <color name="text_primary_light">#E5E7EB</color>
     <color name="text_primary_dark">#E5E7EB</color>
     <color name="text_secondary_light">#CBD5E1</color>
     <color name="text_secondary_dark">#CBD5E1</color>
-    <color name="text_on_teal">#E5E7EB</color>
-    <color name="text_on_gray">#1F2937</color>
+    <color name="text_on_teal">#1F2937</color>
+    <color name="text_on_gray">#23282c</color>
 
     <color name="error_color">#D32F2F</color>
     <color name="disabled_color">#E5E7EB</color>
-    <color name="card_green">#1F2937</color>
-    <color name="card_mint">#1F2937</color>
-    <color name="card_gold">#1F2937</color>
-    <color name="card_beige">#1F2937</color>
-    <color name="card_priority_high">#1F2937</color>
-    <color name="card_priority_medium">#1F2937</color>
-    <color name="card_priority_low">#1F2937</color>
-    <color name="bottom_nav_light">#1F2937</color>
-    <color name="bottom_nav_dark">#1F2937</color>
+    <color name="card_green">#23282c</color>
+    <color name="card_mint">#23282c</color>
+    <color name="card_gold">#23282c</color>
+    <color name="card_beige">#23282c</color>
+    <color name="card_priority_high">#23282c</color>
+    <color name="card_priority_medium">#23282c</color>
+    <color name="card_priority_low">#23282c</color>
+    <color name="bottom_nav_light">#23282c</color>
+    <color name="bottom_nav_dark">#23282c</color>
 </resources>

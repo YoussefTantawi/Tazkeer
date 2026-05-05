@@ -13,7 +13,6 @@ color card_mint
 color card_priority_high
 color card_priority_low
 color card_priority_medium
-color deep_green
 color disabled_color
 color error_color
 color gold
@@ -29,7 +28,6 @@ color text_primary_dark
 color text_primary_light
 color text_secondary_dark
 color text_secondary_light
-drawable bg_chip
 drawable bg_clay_card
 drawable bg_fragment_panel
 drawable bg_priority_high
@@ -52,10 +50,8 @@ drawable ic_delete
 drawable ic_edit
 drawable ic_home
 drawable ic_notification
-drawable ic_notification_old
 drawable ic_search
 drawable ic_settings
-drawable ic_sort
 drawable ic_tazkeer_logo
 id action_sort_category
 id action_sort_priority
@@ -146,7 +142,6 @@ id summaryRecyclerView
 id summarySection
 id summarySectionSwitch
 id summaryTitleText
-id summaryToggleButton
 id sundayCheckBox
 id taskAzkarSearchButton
 id taskCard
