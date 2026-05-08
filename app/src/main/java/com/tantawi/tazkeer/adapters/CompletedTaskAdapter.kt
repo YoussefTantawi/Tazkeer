@@ -69,18 +69,9 @@ class CompletedTaskAdapter(
         holder.categoryText.text = DateTimeHelper.localizedCategory(context, task.category, task.customCategory)
         holder.categoryIcon.setImageResource(DateTimeHelper.categoryIconRes(task.category))
         holder.priorityText.text = DateTimeHelper.localizedPriority(context, task.priority)
-        holder.priorityText.setBackgroundResource(priorityBackground(task.priority))
         holder.checkBox.setOnCheckedChangeListener(null)
         holder.checkBox.isChecked = true
         holder.checkBox.setOnClickListener { onTaskUnchecked(task) }
-    }
-
-    private fun priorityBackground(priority: String): Int {
-        return when (priority) {
-            DateTimeHelper.PRIORITY_HIGH -> R.drawable.bg_priority_high
-            DateTimeHelper.PRIORITY_MEDIUM -> R.drawable.bg_priority_medium
-            else -> R.drawable.bg_priority_low
-        }
     }
 
     class HeaderViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

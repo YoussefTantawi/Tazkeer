@@ -48,7 +48,6 @@ class TaskAdapter(
         holder.categoryText.text = DateTimeHelper.localizedCategory(context, task.category, task.customCategory)
         holder.categoryIcon.setImageResource(DateTimeHelper.categoryIconRes(task.category))
         holder.priorityText.text = DateTimeHelper.localizedPriority(context, task.priority)
-        holder.priorityText.setBackgroundResource(priorityBackground(task.priority))
 
         val isAzkarTask = DateTimeHelper.normalizeCategory(task.category) == DateTimeHelper.CATEGORY_AZKAR
         val isProtectedTask = DateTimeHelper.isProtectedCategory(task.category)
@@ -67,13 +66,6 @@ class TaskAdapter(
 
     override fun getItemCount(): Int = tasks.size
 
-    private fun priorityBackground(priority: String): Int {
-        return when (priority) {
-            DateTimeHelper.PRIORITY_HIGH -> R.drawable.bg_priority_high
-            DateTimeHelper.PRIORITY_MEDIUM -> R.drawable.bg_priority_medium
-            else -> R.drawable.bg_priority_low
-        }
-    }
 
     class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val card: MaterialCardView = itemView.findViewById(R.id.taskCard)

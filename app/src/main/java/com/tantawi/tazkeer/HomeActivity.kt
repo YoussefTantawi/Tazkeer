@@ -681,9 +681,9 @@ class HomeActivity : AppCompatActivity() {
 
         summaryAdapter.submitList(
             listOf(
-                SummaryItem(R.string.summary_tasks, progressText(normalTasks), R.color.surface_light),
-                SummaryItem(R.string.summary_athkar, progressText(azkarTasks), R.color.surface_light),
-                SummaryItem(R.string.summary_prayers, progressText(prayerTasks), R.color.surface_light)
+                SummaryItem(R.string.summary_tasks, progressText(normalTasks), R.color.surface),
+                SummaryItem(R.string.summary_athkar, progressText(azkarTasks), R.color.surface),
+                SummaryItem(R.string.summary_prayers, progressText(prayerTasks), R.color.surface)
             )
         )
     }

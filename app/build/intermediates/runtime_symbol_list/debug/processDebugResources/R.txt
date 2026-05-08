@@ -1526,14 +1526,12 @@ int color accent_material_dark 0x7f060019
 int color accent_material_light 0x7f06001a
 int color androidx_core_ripple_material_light 0x7f06001b
 int color androidx_core_secondary_text_default_material_light 0x7f06001c
-int color background_dark 0x7f06001d
+int color background 0x7f0603cd
 int color background_floating_material_dark 0x7f06001e
 int color background_floating_material_light 0x7f06001f
-int color background_light 0x7f060020
 int color background_material_dark 0x7f060021
 int color background_material_light 0x7f060022
-int color bottom_nav_dark 0x7f060023
-int color bottom_nav_light 0x7f060024
+int color bottom_nav 0x7f0603ce
 int color bright_foreground_disabled_material_dark 0x7f060025
 int color bright_foreground_disabled_material_light 0x7f060026
 int color bright_foreground_inverse_material_dark 0x7f060027
@@ -1608,7 +1606,6 @@ int color foreground_material_dark 0x7f06006b
 int color foreground_material_light 0x7f06006c
 int color gold 0x7f06006d
 int color green 0x7f06006e
-int color green_dark 0x7f06006f
 int color highlighted_text_material_dark 0x7f060070
 int color highlighted_text_material_light 0x7f060071
 int color m3_appbar_overlay_color 0x7f060072
@@ -2452,8 +2449,7 @@ int color secondary_text_default_material_dark 0x7f0603b7
 int color secondary_text_default_material_light 0x7f0603b8
 int color secondary_text_disabled_material_dark 0x7f0603b9
 int color secondary_text_disabled_material_light 0x7f0603ba
-int color surface_dark 0x7f0603bb
-int color surface_light 0x7f0603bc
+int color surface 0x7f0603cf
 int color switch_thumb_disabled_material_dark 0x7f0603bd
 int color switch_thumb_disabled_material_light 0x7f0603be
 int color switch_thumb_material_dark 0x7f0603bf
@@ -2464,10 +2460,8 @@ int color switch_thumb_tint 0x7f0603c3
 int color switch_track_tint 0x7f0603c4
 int color text_on_gray 0x7f0603c5
 int color text_on_teal 0x7f0603c6
-int color text_primary_dark 0x7f0603c7
-int color text_primary_light 0x7f0603c8
-int color text_secondary_dark 0x7f0603c9
-int color text_secondary_light 0x7f0603ca
+int color text_primary 0x7f0603d0
+int color text_secondary 0x7f0603d1
 int color tooltip_background_dark 0x7f0603cb
 int color tooltip_background_light 0x7f0603cc
 int dimen abc_action_bar_content_inset_material 0x7f070000

@@ -21,8 +21,8 @@
         <item>@string/recurrence_daily</item>
         <item>@string/recurrence_custom</item>
     </string-array>
-    <string name="activate_summary_section">تفعيل قسم الملخص</string>
-    <string name="activate_upcoming_task_section">تفعيل قسم المهمة القادمة</string>
+    <string name="activate_summary_section">قسم الملخص</string>
+    <string name="activate_upcoming_task_section">قسم المهمة القادمة</string>
     <string name="add_task">إضافة مهمة</string>
     <string name="app_description">مهام يومية وتذكيرات إسلامية مع إشعارات الصلاة.</string>
     <string name="app_info">معلومات التطبيق</string>
@@ -168,13 +168,13 @@
     <string name="summary_athkar">الأذكار</string>
     <string name="summary_prayers">الصلوات</string>
     <string name="summary_tasks">المهام</string>
-    <string name="sunnah_after_dhuhr_1">سنة بعد الظهر 1</string>
-    <string name="sunnah_after_dhuhr_2">سنة بعد الظهر 2</string>
-    <string name="sunnah_after_isha">سنة بعد العشاء</string>
-    <string name="sunnah_after_maghrib">سنة بعد المغرب</string>
-    <string name="sunnah_before_dhuhr">سنة قبل الظهر</string>
-    <string name="sunnah_before_fajr">سنة قبل الفجر</string>
-    <string name="sunrise_prayer">صلاة الشروق</string>
+    <string name="sunnah_after_dhuhr_1">نافلة بعد الظهر الأولى</string>
+    <string name="sunnah_after_dhuhr_2">نافلة بعد الظهر الثانية</string>
+    <string name="sunnah_after_isha">نافلة بعد العشاء</string>
+    <string name="sunnah_after_maghrib">نافلة بعد المغرب</string>
+    <string name="sunnah_before_dhuhr">نافلة قبل الظهر</string>
+    <string name="sunnah_before_fajr">نافلة قبل الفجر</string>
+    <string name="sunrise_prayer">صلاة الضحى</string>
     <string name="task_before_body">تبدأ مهمة %1$s بعد 10 دقائق</string>
     <string name="task_completed">تم إكمال المهمة</string>
     <string name="task_deleted_successfully">تم حذف المهمة بنجاح</string>
@@ -194,7 +194,7 @@
     <string name="time_format_changed">تم تغيير تنسيق مواقيت الصلاة</string>
     <string name="time_required">الوقت مطلوب</string>
     <string name="title_required">العنوان مطلوب</string>
-    <string name="update_location">تحديث الموقع تلقائيا</string>
+    <string name="update_location">حدث موقعي</string>
     <string name="use_arabic_language">اللغة العربية</string>
     <string name="whatsapp_fallback">https://wa.me/201155194769</string>
 </resources>

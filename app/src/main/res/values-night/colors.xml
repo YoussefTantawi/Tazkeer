@@ -1,21 +1,15 @@
 <resources>
     <color name="green">#34D399</color>
-    <color name="green_dark">#34D399</color>
     <color name="gold">#F4B942</color>
 
-    <color name="background_light">#0b1014</color>
-    <color name="background_dark">#0b1014</color>
-    <color name="surface_light">#202327</color>
-    <color name="surface_dark">#202327</color>
+    <color name="background">#0b1014</color>
+    <color name="surface">#202327</color>
 
-    <color name="text_primary_light">#E5E7EB</color>
-    <color name="text_primary_dark">#E5E7EB</color>
-    <color name="text_secondary_light">#CBD5E1</color>
-    <color name="text_secondary_dark">#CBD5E1</color>
+    <color name="text_primary">#E5E7EB</color>
+    <color name="text_secondary">#CBD5E1</color>
     <color name="text_on_teal">#202327</color>
     <color name="text_on_gray">#202327</color>
 
     <color name="disabled_color">#E5E7EB</color>
-    <color name="bottom_nav_light">#202327</color>
-    <color name="bottom_nav_dark">#202327</color>
+    <color name="bottom_nav">#202327</color>
 </resources>

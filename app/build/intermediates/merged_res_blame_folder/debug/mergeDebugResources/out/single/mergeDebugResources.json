@@ -20,10 +20,6 @@
         "source": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_category_azkar.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_task_section.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_task_section.xml"
-    },
-    {
         "merged": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_delete.xml.flat",
         "source": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_delete.xml"
     },
@@ -88,10 +84,6 @@
         "source": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\bg_priority_high.xml"
     },
     {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_task.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_task.xml"
-    },
-    {
         "merged": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_tazkeer_logo.xml.flat",
         "source": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\drawable\\ic_tazkeer_logo.xml"
     },
@@ -110,10 +102,6 @@
     {
         "merged": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\mipmap-xxhdpi_ic_tazkeer_logo.png.flat",
         "source": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\mipmap-xxhdpi\\ic_tazkeer_logo.png"
-    },
-    {
-        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_item_completed_task.xml.flat",
-        "source": "com.tantawi.tazkeer.app-main-46:/layout/item_completed_task.xml"
     },
     {
         "merged": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_activity_completed_tasks.xml.flat",
@@ -170,6 +158,10 @@
     {
         "merged": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\layout_fragment_task_details.xml.flat",
         "source": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-main-46:\\layout\\fragment_task_details.xml"
+    },
+    {
+        "merged": "com.tantawi.tazkeer.app-debug-44:/layout_fragment_add_edit_task.xml.flat",
+        "source": "com.tantawi.tazkeer.app-main-46:/layout/fragment_add_edit_task.xml"
     },
     {
         "merged": "C:\\Users\\Tantawi\\.gradle\\daemon\\9.5.0\\com.tantawi.tazkeer.app-debug-44:\\drawable_ic_edit.xml.flat",
