@@ -47,6 +47,7 @@ object PrayerApiHelper {
                     maghrib = DateTimeHelper.stripApiTime(timings.optString("Maghrib")),
                     isha = DateTimeHelper.stripApiTime(timings.optString("Isha")),
                     sunrise = DateTimeHelper.stripApiTime(timings.optString("Sunrise")),
+                    midnight = DateTimeHelper.stripApiTime(timings.optString("Midnight")),
                     fetchedAtMillis = System.currentTimeMillis()
                 )
             } catch (_: Exception) {

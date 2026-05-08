@@ -32,14 +32,14 @@ public final class AppDatabase_Impl extends AppDatabase {
   @Override
   @NonNull
   protected RoomOpenDelegate createOpenDelegate() {
-    final RoomOpenDelegate _openDelegate = new RoomOpenDelegate(3, "5124b9dc854c2d3d36d50cd6320ec1b3", "5a7610ab115660f2ff41bbf88d51b9d0") {
+    final RoomOpenDelegate _openDelegate = new RoomOpenDelegate(4, "4ddfcf16194ff3b51a088a42cd36de35", "0c387253d8ecc4f9e73b5ebf8549f6ed") {
       @Override
       public void createAllTables(@NonNull final SQLiteConnection connection) {
         SQLite.execSQL(connection, "CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT NOT NULL, `description` TEXT, `timeMillis` INTEGER NOT NULL, `category` TEXT NOT NULL, `customCategory` TEXT, `priority` TEXT NOT NULL, `recurrenceType` TEXT NOT NULL, `selectedDaysCsv` TEXT NOT NULL, `isCompleted` INTEGER NOT NULL, `completedAtMillis` INTEGER, `createdAtMillis` INTEGER NOT NULL, `updatedAtMillis` INTEGER NOT NULL, `notificationEnabled` INTEGER NOT NULL, `taskDate` TEXT NOT NULL, `isSystemTask` INTEGER NOT NULL, `systemTaskType` TEXT)");
-        SQLite.execSQL(connection, "CREATE TABLE IF NOT EXISTS `prayer_times` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `date` TEXT NOT NULL, `latitude` REAL NOT NULL, `longitude` REAL NOT NULL, `fajr` TEXT NOT NULL, `dhuhr` TEXT NOT NULL, `asr` TEXT NOT NULL, `maghrib` TEXT NOT NULL, `isha` TEXT NOT NULL, `sunrise` TEXT, `fetchedAtMillis` INTEGER NOT NULL)");
+        SQLite.execSQL(connection, "CREATE TABLE IF NOT EXISTS `prayer_times` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `date` TEXT NOT NULL, `latitude` REAL NOT NULL, `longitude` REAL NOT NULL, `fajr` TEXT NOT NULL, `dhuhr` TEXT NOT NULL, `asr` TEXT NOT NULL, `maghrib` TEXT NOT NULL, `isha` TEXT NOT NULL, `sunrise` TEXT, `midnight` TEXT, `fetchedAtMillis` INTEGER NOT NULL)");
         SQLite.execSQL(connection, "CREATE UNIQUE INDEX IF NOT EXISTS `index_prayer_times_date_latitude_longitude` ON `prayer_times` (`date`, `latitude`, `longitude`)");
         SQLite.execSQL(connection, "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        SQLite.execSQL(connection, "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '5124b9dc854c2d3d36d50cd6320ec1b3')");
+        SQLite.execSQL(connection, "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '4ddfcf16194ff3b51a088a42cd36de35')");
       }
 
       @Override
@@ -97,7 +97,7 @@ public final class AppDatabase_Impl extends AppDatabase {
                   + " Expected:\n" + _infoTasks + "\n"
                   + " Found:\n" + _existingTasks);
         }
-        final Map<String, TableInfo.Column> _columnsPrayerTimes = new HashMap<String, TableInfo.Column>(11);
+        final Map<String, TableInfo.Column> _columnsPrayerTimes = new HashMap<String, TableInfo.Column>(12);
         _columnsPrayerTimes.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsPrayerTimes.put("date", new TableInfo.Column("date", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsPrayerTimes.put("latitude", new TableInfo.Column("latitude", "REAL", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
@@ -108,6 +108,7 @@ public final class AppDatabase_Impl extends AppDatabase {
         _columnsPrayerTimes.put("maghrib", new TableInfo.Column("maghrib", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsPrayerTimes.put("isha", new TableInfo.Column("isha", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsPrayerTimes.put("sunrise", new TableInfo.Column("sunrise", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsPrayerTimes.put("midnight", new TableInfo.Column("midnight", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsPrayerTimes.put("fetchedAtMillis", new TableInfo.Column("fetchedAtMillis", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final Set<TableInfo.ForeignKey> _foreignKeysPrayerTimes = new HashSet<TableInfo.ForeignKey>(0);
         final Set<TableInfo.Index> _indicesPrayerTimes = new HashSet<TableInfo.Index>(1);

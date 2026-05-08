@@ -25,15 +25,7 @@
     <color name="background_light">#F8FAFC</color>
     <color name="bottom_nav_dark">#0B1D17</color>
     <color name="bottom_nav_light">#E5E7EB</color>
-    <color name="card_beige">#E5E7EB</color>
-    <color name="card_gold">#E5E7EB</color>
-    <color name="card_green">#E5E7EB</color>
-    <color name="card_mint">#E5E7EB</color>
-    <color name="card_priority_high">#E5E7EB</color>
-    <color name="card_priority_low">#E5E7EB</color>
-    <color name="card_priority_medium">#E5E7EB</color>
     <color name="disabled_color">#E5E7EB</color>
-    <color name="error_color">#D32F2F</color>
     <color name="gold">#F4B942</color>
     <color name="green">#059669</color>
     <color name="green_dark">#059669</color>
@@ -117,6 +109,7 @@
     <string name="location_services_disabled">Location service is off. Please enable it from settings.</string>
     <string name="location_unavailable">Could not get current location</string>
     <string name="location_updated">Location updated</string>
+    <string name="night_prayer">Night Prayer</string>
     <string name="no_description">No description</string>
     <string name="no_internet_no_cache">No internet connection and no saved prayer times yet</string>
     <string name="no_internet_using_cache">No internet connection, using last saved prayer times</string>
@@ -152,6 +145,7 @@
     <string name="recurrence_custom">Custom</string>
     <string name="recurrence_daily">Daily</string>
     <string name="recurrence_once">Once</string>
+    <string name="regular_sunnah_prayers">Regular Sunnah Prayers</string>
     <string name="reset_preferences">Reset preferences</string>
     <string name="save">Save</string>
     <string name="search_after_prayer_azkar">After Prayer Azkar</string>
@@ -171,6 +165,12 @@
     <string name="section_summary">Summary</string>
     <string name="section_tasks">Tasks</string>
     <string name="section_upcoming_task">Upcoming Task</string>
+    <string name="settings_section_app_info">App Info</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_home_sections">Home Page Sections</string>
+    <string name="settings_section_location_actions">Location &amp; App Actions</string>
+    <string name="settings_section_notifications">Notifications</string>
+    <string name="settings_section_prayer_tasks">Prayer Tasks</string>
     <string name="settings_title">Settings</string>
     <string name="share_app">Share app</string>
     <string name="share_message">Try Tazkeer for tasks, prayer times, and Islamic reminders: https://play.google.com/store/apps/details?id=com.tantawi.tazkeer</string>
@@ -184,6 +184,13 @@
     <string name="summary_athkar">Athkar</string>
     <string name="summary_prayers">Prayers</string>
     <string name="summary_tasks">Tasks</string>
+    <string name="sunnah_after_dhuhr_1">After Dhuhr Sunnah 1</string>
+    <string name="sunnah_after_dhuhr_2">After Dhuhr Sunnah 2</string>
+    <string name="sunnah_after_isha">After Isha Sunnah</string>
+    <string name="sunnah_after_maghrib">After Maghrib Sunnah</string>
+    <string name="sunnah_before_dhuhr">Before Dhuhr Sunnah</string>
+    <string name="sunnah_before_fajr">Before Fajr Sunnah</string>
+    <string name="sunrise_prayer">Sunrise Prayer</string>
     <string name="task_before_body">%1$s starts in 10 minutes</string>
     <string name="task_completed">Task completed</string>
     <string name="task_deleted_successfully">Task deleted successfully</string>

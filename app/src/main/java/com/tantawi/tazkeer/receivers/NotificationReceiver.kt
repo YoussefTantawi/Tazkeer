@@ -68,7 +68,17 @@ class NotificationReceiver : BroadcastReceiver() {
         return when (notificationType) {
             AlarmHelper.TYPE_PRAYER -> {
                 val prayerName = intent.getStringExtra(AlarmHelper.EXTRA_PRAYER_NAME).orEmpty()
-                val displayName = DateTimeHelper.localizedPrayerName(context, prayerName)
+                val systemTaskType = intent.getStringExtra(AlarmHelper.EXTRA_SYSTEM_TASK_TYPE)
+                val displayName = if (systemTaskType.isNullOrBlank()) {
+                    DateTimeHelper.localizedPrayerName(context, prayerName)
+                } else {
+                    DateTimeHelper.localizedTaskTitle(
+                        context,
+                        intent.getStringExtra(AlarmHelper.EXTRA_TASK_TITLE).orEmpty(),
+                        intent.getStringExtra(AlarmHelper.EXTRA_TASK_CATEGORY).orEmpty(),
+                        systemTaskType
+                    )
+                }
                 if (alarmKind == AlarmHelper.KIND_EXACT) {
                     context.getString(R.string.prayer_exact_body, displayName)
                 } else {

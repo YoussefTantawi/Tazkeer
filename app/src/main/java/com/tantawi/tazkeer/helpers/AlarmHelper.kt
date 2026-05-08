@@ -45,7 +45,7 @@ object AlarmHelper {
                 ?.takeIf { it.startsWith("Prayer:") }
                 ?.removePrefix("Prayer:")
                 ?: task.title
-            DateTimeHelper.canonicalPrayerName(rawName)
+            DateTimeHelper.canonicalPrayerName(rawName) ?: rawName
         } else {
             null
         }

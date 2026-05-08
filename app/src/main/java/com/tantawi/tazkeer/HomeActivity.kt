@@ -51,6 +51,7 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var summaryAdapter: SummaryAdapter
     private lateinit var emptyTasksText: TextView
     private lateinit var addEditContainer: View
+    private lateinit var addTaskFab: FloatingActionButton
     private lateinit var summarySection: View
     private lateinit var summaryRecyclerView: RecyclerView
     private lateinit var taskSectionsContainer: LinearLayout
@@ -94,6 +95,7 @@ class HomeActivity : AppCompatActivity() {
 
         emptyTasksText = findViewById(R.id.emptyTasksText)
         addEditContainer = findViewById(R.id.addEditContainer)
+        addTaskFab = findViewById(R.id.addTaskFab)
         summarySection = findViewById(R.id.summarySection)
         taskSectionsContainer = findViewById(R.id.taskSectionsContainer)
         upcomingSection = findViewById(R.id.upcomingSection)
@@ -109,6 +111,7 @@ class HomeActivity : AppCompatActivity() {
 
         loadTasks()
         loadPrayerTimes()
+        syncTaskOverlayVisibility()
         handleDetailsIntent(intent)
     }
 
@@ -116,6 +119,7 @@ class HomeActivity : AppCompatActivity() {
         super.onResume()
         applySummaryVisibility()
         applyUpcomingVisibility()
+        syncTaskOverlayVisibility()
         startUpcomingTicker()
         if (firstResume) {
             firstResume = false
@@ -164,9 +168,9 @@ class HomeActivity : AppCompatActivity() {
 
     fun closeAddEditFragment(refreshTasks: Boolean = true) {
         supportFragmentManager.findFragmentById(R.id.addEditContainer)?.let { fragment ->
-            supportFragmentManager.beginTransaction().remove(fragment).commit()
+            supportFragmentManager.beginTransaction().remove(fragment).commitNowAllowingStateLoss()
         }
-        addEditContainer.visibility = View.GONE
+        syncTaskOverlayVisibility(false)
         if (refreshTasks) loadTasks()
     }
 
@@ -212,25 +216,35 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun setupAddButton() {
-        findViewById<FloatingActionButton>(R.id.addTaskFab).setOnClickListener {
+        addTaskFab.setOnClickListener {
             showAddEditFragment(null)
         }
     }
 
     private fun showAddEditFragment(taskId: Long?) {
-        addEditContainer.visibility = View.VISIBLE
         val fragment = AddEditTaskFragment.newInstance(taskId)
         supportFragmentManager.beginTransaction()
             .replace(R.id.addEditContainer, fragment)
             .commit()
+        syncTaskOverlayVisibility(true)
     }
 
     private fun showTaskDetailsFragment(taskId: Long) {
-        addEditContainer.visibility = View.VISIBLE
         val fragment = TaskDetailsFragment.newInstance(taskId)
         supportFragmentManager.beginTransaction()
             .replace(R.id.addEditContainer, fragment)
             .commit()
+        syncTaskOverlayVisibility(true)
+    }
+
+    private fun syncTaskOverlayVisibility(forceVisible: Boolean? = null) {
+        val overlayVisible = forceVisible ?: (supportFragmentManager.findFragmentById(R.id.addEditContainer) != null)
+        addEditContainer.visibility = if (overlayVisible) View.VISIBLE else View.GONE
+        if (overlayVisible) {
+            addTaskFab.hide()
+        } else {
+            addTaskFab.show()
+        }
     }
 
     private fun handleDetailsIntent(intent: Intent?) {
@@ -491,6 +505,9 @@ class HomeActivity : AppCompatActivity() {
             if (prayerTime == null) {
                 currentPrayerTimesByName = emptyMap()
                 Toast.makeText(this@HomeActivity, R.string.no_internet_no_cache, Toast.LENGTH_SHORT).show()
+                withContext(Dispatchers.IO) {
+                    removeDisabledOptionalTasks(DateTimeHelper.localDateKey(), enabledOptionalSystemTaskTypes())
+                }
             } else {
                 currentPrayerTimesByName = prayerTimesByName(prayerTime)
                 withContext(Dispatchers.IO) {
@@ -502,19 +519,26 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun prayerTimesByName(prayerTime: PrayerTimeEntity): Map<String, Long> {
-        return mapOf(
+        val prayerTimes = mutableMapOf(
             "Fajr" to DateTimeHelper.prayerTimeMillis(prayerTime.date, prayerTime.fajr),
             "Dhuhr" to DateTimeHelper.prayerTimeMillis(prayerTime.date, prayerTime.dhuhr),
             "Asr" to DateTimeHelper.prayerTimeMillis(prayerTime.date, prayerTime.asr),
             "Maghrib" to DateTimeHelper.prayerTimeMillis(prayerTime.date, prayerTime.maghrib),
             "Isha" to DateTimeHelper.prayerTimeMillis(prayerTime.date, prayerTime.isha)
         )
+        prayerTime.sunrise?.let {
+            prayerTimes["Sunrise"] = DateTimeHelper.prayerTimeMillis(prayerTime.date, it)
+        }
+        prayerTime.midnight?.let {
+            prayerTimes["Midnight"] = DateTimeHelper.prayerTimeMillis(prayerTime.date, it)
+        }
+        return prayerTimes
     }
 
     private suspend fun syncGeneratedTasks(prayerTime: PrayerTimeEntity) {
         val dateKey = DateTimeHelper.localDateKey()
         val prayerTimes = prayerTimesByName(prayerTime)
-        val specs = listOf(
+        val specs = mutableListOf(
             GeneratedTaskSpec("Fajr", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_HIGH, prayerTimes["Fajr"] ?: 0L, "Prayer:Fajr"),
             GeneratedTaskSpec("Dhuhr", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_HIGH, prayerTimes["Dhuhr"] ?: 0L, "Prayer:Dhuhr"),
             GeneratedTaskSpec("Asr", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_HIGH, prayerTimes["Asr"] ?: 0L, "Prayer:Asr"),
@@ -524,6 +548,34 @@ class HomeActivity : AppCompatActivity() {
             GeneratedTaskSpec("Evening Azkar", DateTimeHelper.CATEGORY_AZKAR, DateTimeHelper.PRIORITY_MEDIUM, offsetTime(prayerTimes["Asr"], TWENTY_MINUTES), "Azkar:Evening"),
             GeneratedTaskSpec("Sleep Azkar", DateTimeHelper.CATEGORY_AZKAR, DateTimeHelper.PRIORITY_MEDIUM, offsetTime(prayerTimes["Isha"], TWO_HOURS), "Azkar:Sleep")
         )
+
+        if (PreferencesHelper.isSunrisePrayerEnabled(this)) {
+            specs.add(
+                GeneratedTaskSpec(
+                    "Sunrise",
+                    DateTimeHelper.CATEGORY_PRAYER,
+                    DateTimeHelper.PRIORITY_MEDIUM,
+                    prayerTimes["Sunrise"] ?: 0L,
+                    "Prayer:Sunrise"
+                )
+            )
+        }
+        if (PreferencesHelper.isSunnahPrayersEnabled(this)) {
+            specs.addAll(sunnahTaskSpecs(prayerTimes))
+        }
+        if (PreferencesHelper.isNightPrayerEnabled(this)) {
+            specs.add(
+                GeneratedTaskSpec(
+                    "Night Prayer",
+                    DateTimeHelper.CATEGORY_PRAYER,
+                    DateTimeHelper.PRIORITY_MEDIUM,
+                    prayerTimes["Midnight"] ?: 0L,
+                    "Prayer:NightPrayer"
+                )
+            )
+        }
+
+        removeDisabledOptionalTasks(dateKey, specs.filter { it.timeMillis > 0L }.map { it.systemTaskType }.toSet())
 
         specs.filter { it.timeMillis > 0L }.forEach { spec ->
             if (PreferencesHelper.isSystemTaskDeleted(this, dateKey, spec.systemTaskType)) return@forEach
@@ -572,6 +624,39 @@ class HomeActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    private fun sunnahTaskSpecs(prayerTimes: Map<String, Long>): List<GeneratedTaskSpec> {
+        return listOf(
+            GeneratedTaskSpec("Before Fajr Sunnah", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_MEDIUM, prayerTimes["Fajr"] ?: 0L, "Sunnah:BeforeFajr"),
+            GeneratedTaskSpec("Before Dhuhr Sunnah", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_MEDIUM, prayerTimes["Dhuhr"] ?: 0L, "Sunnah:BeforeDhuhr"),
+            GeneratedTaskSpec("After Dhuhr Sunnah 1", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_MEDIUM, prayerTimes["Dhuhr"] ?: 0L, "Sunnah:AfterDhuhr1"),
+            GeneratedTaskSpec("After Dhuhr Sunnah 2", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_MEDIUM, prayerTimes["Dhuhr"] ?: 0L, "Sunnah:AfterDhuhr2"),
+            GeneratedTaskSpec("After Maghrib Sunnah", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_MEDIUM, prayerTimes["Maghrib"] ?: 0L, "Sunnah:AfterMaghrib"),
+            GeneratedTaskSpec("After Isha Sunnah", DateTimeHelper.CATEGORY_PRAYER, DateTimeHelper.PRIORITY_MEDIUM, prayerTimes["Isha"] ?: 0L, "Sunnah:AfterIsha")
+        )
+    }
+
+    private suspend fun removeDisabledOptionalTasks(dateKey: String, enabledTypes: Set<String>) {
+        OPTIONAL_SYSTEM_TASK_TYPES.filterNot { it in enabledTypes }.forEach { systemTaskType ->
+            val task = database.taskDao().getSystemTaskForDate(dateKey, systemTaskType) ?: return@forEach
+            AlarmHelper.cancelTaskAlarms(this, task.id)
+            database.taskDao().deleteTask(task)
+        }
+    }
+
+    private fun enabledOptionalSystemTaskTypes(): Set<String> {
+        val enabledTypes = mutableSetOf<String>()
+        if (PreferencesHelper.isSunrisePrayerEnabled(this)) {
+            enabledTypes.add("Prayer:Sunrise")
+        }
+        if (PreferencesHelper.isNightPrayerEnabled(this)) {
+            enabledTypes.add("Prayer:NightPrayer")
+        }
+        if (PreferencesHelper.isSunnahPrayersEnabled(this)) {
+            enabledTypes.addAll(SUNNAH_SYSTEM_TASK_TYPES)
+        }
+        return enabledTypes
     }
 
     private fun offsetTime(baseTimeMillis: Long?, offsetMillis: Long): Long {
@@ -684,6 +769,19 @@ class HomeActivity : AppCompatActivity() {
         const val UPCOMING_REFRESH_DELAY = 60_000L
         const val SYSTEM_PRAYER_PREFIX = "Prayer:"
         val PRAYER_NAMES = setOf("Fajr", "Dhuhr", "Asr", "Maghrib", "Isha")
+        val SUNNAH_SYSTEM_TASK_TYPES = setOf(
+            "Sunnah:BeforeFajr",
+            "Sunnah:BeforeDhuhr",
+            "Sunnah:AfterDhuhr1",
+            "Sunnah:AfterDhuhr2",
+            "Sunnah:AfterMaghrib",
+            "Sunnah:AfterIsha"
+        )
+        val OPTIONAL_SYSTEM_TASK_TYPES = setOf(
+            "Prayer:Sunrise",
+            "Prayer:NightPrayer",
+            *SUNNAH_SYSTEM_TASK_TYPES.toTypedArray()
+        )
         const val TWENTY_MINUTES = 20L * 60L * 1000L
         const val TWO_HOURS = 2L * 60L * 60L * 1000L
     }

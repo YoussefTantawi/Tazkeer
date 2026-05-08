@@ -4,7 +4,7 @@
             "outputFile": "com.tantawi.tazkeer.app-mergeDebugResources-42:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MeRo\\.gradle\\caches\\9.5.0\\transforms\\1f8478ebe44917a15ed97a3f0f50c9fb\\transformed\\appcompat-1.7.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Tantawi\\.gradle\\caches\\9.5.0\\transforms\\b1a93cb30245cccf148eb9942f7004bb\\transformed\\appcompat-1.7.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

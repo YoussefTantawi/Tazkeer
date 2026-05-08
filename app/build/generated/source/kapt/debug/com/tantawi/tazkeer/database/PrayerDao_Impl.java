@@ -31,7 +31,7 @@ public final class PrayerDao_Impl implements PrayerDao {
       @Override
       @NonNull
       protected String createQuery() {
-        return "INSERT OR REPLACE INTO `prayer_times` (`id`,`date`,`latitude`,`longitude`,`fajr`,`dhuhr`,`asr`,`maghrib`,`isha`,`sunrise`,`fetchedAtMillis`) VALUES (nullif(?, 0),?,?,?,?,?,?,?,?,?,?)";
+        return "INSERT OR REPLACE INTO `prayer_times` (`id`,`date`,`latitude`,`longitude`,`fajr`,`dhuhr`,`asr`,`maghrib`,`isha`,`sunrise`,`midnight`,`fetchedAtMillis`) VALUES (nullif(?, 0),?,?,?,?,?,?,?,?,?,?,?)";
       }
 
       @Override
@@ -75,7 +75,12 @@ public final class PrayerDao_Impl implements PrayerDao {
         } else {
           statement.bindText(10, entity.getSunrise());
         }
-        statement.bindLong(11, entity.getFetchedAtMillis());
+        if (entity.getMidnight() == null) {
+          statement.bindNull(11);
+        } else {
+          statement.bindText(11, entity.getMidnight());
+        }
+        statement.bindLong(12, entity.getFetchedAtMillis());
       }
     };
   }
@@ -117,6 +122,7 @@ public final class PrayerDao_Impl implements PrayerDao {
         final int _columnIndexOfMaghrib = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "maghrib");
         final int _columnIndexOfIsha = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "isha");
         final int _columnIndexOfSunrise = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "sunrise");
+        final int _columnIndexOfMidnight = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "midnight");
         final int _columnIndexOfFetchedAtMillis = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "fetchedAtMillis");
         final PrayerTimeEntity _result;
         if (_stmt.step()) {
@@ -168,9 +174,15 @@ public final class PrayerDao_Impl implements PrayerDao {
           } else {
             _tmpSunrise = _stmt.getText(_columnIndexOfSunrise);
           }
+          final String _tmpMidnight;
+          if (_stmt.isNull(_columnIndexOfMidnight)) {
+            _tmpMidnight = null;
+          } else {
+            _tmpMidnight = _stmt.getText(_columnIndexOfMidnight);
+          }
           final long _tmpFetchedAtMillis;
           _tmpFetchedAtMillis = _stmt.getLong(_columnIndexOfFetchedAtMillis);
-          _result = new PrayerTimeEntity(_tmpId,_tmpDate,_tmpLatitude,_tmpLongitude,_tmpFajr,_tmpDhuhr,_tmpAsr,_tmpMaghrib,_tmpIsha,_tmpSunrise,_tmpFetchedAtMillis);
+          _result = new PrayerTimeEntity(_tmpId,_tmpDate,_tmpLatitude,_tmpLongitude,_tmpFajr,_tmpDhuhr,_tmpAsr,_tmpMaghrib,_tmpIsha,_tmpSunrise,_tmpMidnight,_tmpFetchedAtMillis);
         } else {
           _result = null;
         }
@@ -197,6 +209,7 @@ public final class PrayerDao_Impl implements PrayerDao {
         final int _columnIndexOfMaghrib = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "maghrib");
         final int _columnIndexOfIsha = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "isha");
         final int _columnIndexOfSunrise = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "sunrise");
+        final int _columnIndexOfMidnight = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "midnight");
         final int _columnIndexOfFetchedAtMillis = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "fetchedAtMillis");
         final PrayerTimeEntity _result;
         if (_stmt.step()) {
@@ -248,9 +261,15 @@ public final class PrayerDao_Impl implements PrayerDao {
           } else {
             _tmpSunrise = _stmt.getText(_columnIndexOfSunrise);
           }
+          final String _tmpMidnight;
+          if (_stmt.isNull(_columnIndexOfMidnight)) {
+            _tmpMidnight = null;
+          } else {
+            _tmpMidnight = _stmt.getText(_columnIndexOfMidnight);
+          }
           final long _tmpFetchedAtMillis;
           _tmpFetchedAtMillis = _stmt.getLong(_columnIndexOfFetchedAtMillis);
-          _result = new PrayerTimeEntity(_tmpId,_tmpDate,_tmpLatitude,_tmpLongitude,_tmpFajr,_tmpDhuhr,_tmpAsr,_tmpMaghrib,_tmpIsha,_tmpSunrise,_tmpFetchedAtMillis);
+          _result = new PrayerTimeEntity(_tmpId,_tmpDate,_tmpLatitude,_tmpLongitude,_tmpFajr,_tmpDhuhr,_tmpAsr,_tmpMaghrib,_tmpIsha,_tmpSunrise,_tmpMidnight,_tmpFetchedAtMillis);
         } else {
           _result = null;
         }

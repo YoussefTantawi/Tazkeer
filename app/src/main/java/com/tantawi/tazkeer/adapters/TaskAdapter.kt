@@ -8,7 +8,6 @@ import android.widget.CheckBox
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
 import com.tantawi.tazkeer.R
@@ -50,7 +49,6 @@ class TaskAdapter(
         holder.categoryIcon.setImageResource(DateTimeHelper.categoryIconRes(task.category))
         holder.priorityText.text = DateTimeHelper.localizedPriority(context, task.priority)
         holder.priorityText.setBackgroundResource(priorityBackground(task.priority))
-        holder.card.setCardBackgroundColor(ContextCompat.getColor(context, priorityCardColor(task.priority)))
 
         val isAzkarTask = DateTimeHelper.normalizeCategory(task.category) == DateTimeHelper.CATEGORY_AZKAR
         val isProtectedTask = DateTimeHelper.isProtectedCategory(task.category)
@@ -75,10 +73,6 @@ class TaskAdapter(
             DateTimeHelper.PRIORITY_MEDIUM -> R.drawable.bg_priority_medium
             else -> R.drawable.bg_priority_low
         }
-    }
-
-    private fun priorityCardColor(priority: String): Int {
-        return R.color.surface_light
     }
 
     class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

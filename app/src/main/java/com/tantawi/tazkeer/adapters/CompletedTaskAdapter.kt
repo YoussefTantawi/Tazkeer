@@ -8,9 +8,7 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.card.MaterialCardView
 import com.tantawi.tazkeer.R
 import com.tantawi.tazkeer.database.TaskEntity
 import com.tantawi.tazkeer.helpers.DateTimeHelper
@@ -72,7 +70,6 @@ class CompletedTaskAdapter(
         holder.categoryIcon.setImageResource(DateTimeHelper.categoryIconRes(task.category))
         holder.priorityText.text = DateTimeHelper.localizedPriority(context, task.priority)
         holder.priorityText.setBackgroundResource(priorityBackground(task.priority))
-        holder.card.setCardBackgroundColor(ContextCompat.getColor(context, priorityCardColor(task.priority)))
         holder.checkBox.setOnCheckedChangeListener(null)
         holder.checkBox.isChecked = true
         holder.checkBox.setOnClickListener { onTaskUnchecked(task) }
@@ -86,16 +83,11 @@ class CompletedTaskAdapter(
         }
     }
 
-    private fun priorityCardColor(priority: String): Int {
-        return R.color.surface_light
-    }
-
     class HeaderViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val dateText: TextView = itemView.findViewById(R.id.completedHeaderText)
     }
 
     class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val card: MaterialCardView = itemView.findViewById(R.id.completedTaskCard)
         val checkBox: CheckBox = itemView.findViewById(R.id.completedTaskCheckBox)
         val titleText: TextView = itemView.findViewById(R.id.completedTaskTitleText)
         val descriptionText: TextView = itemView.findViewById(R.id.completedTaskDescriptionText)

@@ -261,6 +261,8 @@ object DateTimeHelper {
         category: String,
         systemTaskType: String? = null
     ): String {
+        localizedGeneratedPrayerTaskTitle(context, systemTaskType)?.let { return it }
+
         val prayerName = systemTaskType
             ?.takeIf { it.startsWith("Prayer:") }
             ?.removePrefix("Prayer:")
@@ -282,6 +284,8 @@ object DateTimeHelper {
             "Asr" -> context.getString(R.string.prayer_asr)
             "Maghrib" -> context.getString(R.string.prayer_maghrib)
             "Isha" -> context.getString(R.string.prayer_isha)
+            "Sunrise" -> context.getString(R.string.prayer_sunrise)
+            "NightPrayer" -> context.getString(R.string.night_prayer)
             else -> prayerName.ifBlank { context.getString(R.string.prayer_sunrise) }
         }
     }
@@ -293,6 +297,8 @@ object DateTimeHelper {
             "Asr", "العصر" -> "Asr"
             "Maghrib", "المغرب" -> "Maghrib"
             "Isha", "العشاء" -> "Isha"
+            "Sunrise", "الشروق" -> "Sunrise"
+            "NightPrayer", "Night Prayer", "قيام الليل" -> "NightPrayer"
             else -> null
         }
     }
@@ -319,6 +325,20 @@ object DateTimeHelper {
             "Azkar:Sleep", "Sleep Azkar", "أذكار النوم" -> context.getString(R.string.azkar_sleep)
             "Azkar:AfterPrayer", "After Prayer Azkar", "أذكار بعد الصلاة" -> context.getString(R.string.azkar_after_prayer)
             else -> title
+        }
+    }
+
+    private fun localizedGeneratedPrayerTaskTitle(context: Context, systemTaskType: String?): String? {
+        return when (systemTaskType) {
+            "Prayer:Sunrise" -> context.getString(R.string.prayer_sunrise)
+            "Prayer:NightPrayer" -> context.getString(R.string.night_prayer)
+            "Sunnah:BeforeFajr" -> context.getString(R.string.sunnah_before_fajr)
+            "Sunnah:BeforeDhuhr" -> context.getString(R.string.sunnah_before_dhuhr)
+            "Sunnah:AfterDhuhr1" -> context.getString(R.string.sunnah_after_dhuhr_1)
+            "Sunnah:AfterDhuhr2" -> context.getString(R.string.sunnah_after_dhuhr_2)
+            "Sunnah:AfterMaghrib" -> context.getString(R.string.sunnah_after_maghrib)
+            "Sunnah:AfterIsha" -> context.getString(R.string.sunnah_after_isha)
+            else -> null
         }
     }
 }

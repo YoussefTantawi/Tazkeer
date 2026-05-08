@@ -93,6 +93,7 @@
     <string name="location_services_disabled">خدمة الموقع مغلقة. يرجى تفعيلها من الإعدادات.</string>
     <string name="location_unavailable">تعذر الحصول على الموقع الحالي</string>
     <string name="location_updated">تم تحديث الموقع</string>
+    <string name="night_prayer">قيام الليل</string>
     <string name="no_description">لا يوجد وصف</string>
     <string name="no_internet_no_cache">لا يوجد اتصال بالإنترنت ولا توجد مواقيت محفوظة بعد</string>
     <string name="no_internet_using_cache">لا يوجد اتصال بالإنترنت، سيتم استخدام آخر مواقيت محفوظة</string>
@@ -128,6 +129,7 @@
     <string name="recurrence_custom">مخصص</string>
     <string name="recurrence_daily">يوميا</string>
     <string name="recurrence_once">مرة واحدة</string>
+    <string name="regular_sunnah_prayers">السنن الرواتب</string>
     <string name="reset_preferences">إعادة ضبط الإعدادات</string>
     <string name="save">حفظ</string>
     <string name="search_after_prayer_azkar">أذكار بعد الصلاة</string>
@@ -147,6 +149,12 @@
     <string name="section_summary">الملخص</string>
     <string name="section_tasks">المهام</string>
     <string name="section_upcoming_task">المهمة القادمة</string>
+    <string name="settings_section_app_info">معلومات التطبيق</string>
+    <string name="settings_section_appearance">المظهر</string>
+    <string name="settings_section_home_sections">أقسام الصفحة الرئيسية</string>
+    <string name="settings_section_location_actions">الموقع وإجراءات التطبيق</string>
+    <string name="settings_section_notifications">الإشعارات</string>
+    <string name="settings_section_prayer_tasks">مهام الصلاة</string>
     <string name="settings_title">الإعدادات</string>
     <string name="share_app">مشاركة التطبيق</string>
     <string name="share_message">جرب تطبيق تذكير للمهام ومواقيت الصلاة والأذكار: https://play.google.com/store/apps/details?id=com.tantawi.tazkeer</string>
@@ -160,6 +168,13 @@
     <string name="summary_athkar">الأذكار</string>
     <string name="summary_prayers">الصلوات</string>
     <string name="summary_tasks">المهام</string>
+    <string name="sunnah_after_dhuhr_1">سنة بعد الظهر 1</string>
+    <string name="sunnah_after_dhuhr_2">سنة بعد الظهر 2</string>
+    <string name="sunnah_after_isha">سنة بعد العشاء</string>
+    <string name="sunnah_after_maghrib">سنة بعد المغرب</string>
+    <string name="sunnah_before_dhuhr">سنة قبل الظهر</string>
+    <string name="sunnah_before_fajr">سنة قبل الفجر</string>
+    <string name="sunrise_prayer">صلاة الشروق</string>
     <string name="task_before_body">تبدأ مهمة %1$s بعد 10 دقائق</string>
     <string name="task_completed">تم إكمال المهمة</string>
     <string name="task_deleted_successfully">تم حذف المهمة بنجاح</string>

@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 // AppDatabase gives the app one shared Room database instance.
 @Database(
     entities = [TaskEntity::class, PrayerTimeEntity::class],
-    version = 3,
+    version = 4,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -27,7 +27,7 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "tazkeer_database"
-                ).addMigrations(MIGRATION_1_2, MIGRATION_2_3).build()
+                ).addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4).build()
                 INSTANCE = instance
                 instance
             }
@@ -49,6 +49,12 @@ abstract class AppDatabase : RoomDatabase() {
                 db.execSQL("UPDATE tasks SET category = 'Others' WHERE category = 'Other'")
                 db.execSQL("UPDATE tasks SET category = 'Prayer' WHERE category = 'Prayers'")
                 db.execSQL("UPDATE tasks SET category = 'Fitness' WHERE category = 'Gym'")
+            }
+        }
+
+        private val MIGRATION_3_4 = object : Migration(3, 4) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE prayer_times ADD COLUMN midnight TEXT")
             }
         }
     }

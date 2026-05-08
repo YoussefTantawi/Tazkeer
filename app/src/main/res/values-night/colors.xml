@@ -5,25 +5,17 @@
 
     <color name="background_light">#0b1014</color>
     <color name="background_dark">#0b1014</color>
-    <color name="surface_light">#23282c</color>
-    <color name="surface_dark">#23282c</color>
+    <color name="surface_light">#202327</color>
+    <color name="surface_dark">#202327</color>
 
     <color name="text_primary_light">#E5E7EB</color>
     <color name="text_primary_dark">#E5E7EB</color>
     <color name="text_secondary_light">#CBD5E1</color>
     <color name="text_secondary_dark">#CBD5E1</color>
-    <color name="text_on_teal">#1F2937</color>
-    <color name="text_on_gray">#23282c</color>
+    <color name="text_on_teal">#202327</color>
+    <color name="text_on_gray">#202327</color>
 
-    <color name="error_color">#D32F2F</color>
     <color name="disabled_color">#E5E7EB</color>
-    <color name="card_green">#23282c</color>
-    <color name="card_mint">#23282c</color>
-    <color name="card_gold">#23282c</color>
-    <color name="card_beige">#23282c</color>
-    <color name="card_priority_high">#23282c</color>
-    <color name="card_priority_medium">#23282c</color>
-    <color name="card_priority_low">#23282c</color>
-    <color name="bottom_nav_light">#23282c</color>
-    <color name="bottom_nav_dark">#23282c</color>
+    <color name="bottom_nav_light">#202327</color>
+    <color name="bottom_nav_dark">#202327</color>
 </resources>

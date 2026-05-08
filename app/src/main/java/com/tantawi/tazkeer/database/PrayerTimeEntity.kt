@@ -20,5 +20,6 @@ data class PrayerTimeEntity(
     val maghrib: String,
     val isha: String,
     val sunrise: String?,
+    val midnight: String?,
     val fetchedAtMillis: Long
 )

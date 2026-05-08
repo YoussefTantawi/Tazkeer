@@ -36,6 +36,9 @@ class SettingsActivity : AppCompatActivity() {
     private lateinit var timeFormatSwitch: SwitchMaterial
     private lateinit var summarySectionSwitch: SwitchMaterial
     private lateinit var upcomingSectionSwitch: SwitchMaterial
+    private lateinit var sunrisePrayerSwitch: SwitchMaterial
+    private lateinit var sunnahPrayersSwitch: SwitchMaterial
+    private lateinit var nightPrayerSwitch: SwitchMaterial
 
     override fun attachBaseContext(newBase: Context) {
         super.attachBaseContext(LanguageHelper.wrapContext(newBase))
@@ -54,6 +57,9 @@ class SettingsActivity : AppCompatActivity() {
         timeFormatSwitch = findViewById(R.id.timeFormatSwitch)
         summarySectionSwitch = findViewById(R.id.summarySectionSwitch)
         upcomingSectionSwitch = findViewById(R.id.upcomingSectionSwitch)
+        sunrisePrayerSwitch = findViewById(R.id.sunrisePrayerSwitch)
+        sunnahPrayersSwitch = findViewById(R.id.sunnahPrayersSwitch)
+        nightPrayerSwitch = findViewById(R.id.nightPrayerSwitch)
 
         setupInitialValues()
         setupSettingsActions()
@@ -73,6 +79,9 @@ class SettingsActivity : AppCompatActivity() {
         timeFormatSwitch.isChecked = PreferencesHelper.use24HourPrayerTime(this)
         summarySectionSwitch.isChecked = PreferencesHelper.isSummarySectionEnabled(this)
         upcomingSectionSwitch.isChecked = PreferencesHelper.isUpcomingSectionEnabled(this)
+        sunrisePrayerSwitch.isChecked = PreferencesHelper.isSunrisePrayerEnabled(this)
+        sunnahPrayersSwitch.isChecked = PreferencesHelper.isSunnahPrayersEnabled(this)
+        nightPrayerSwitch.isChecked = PreferencesHelper.isNightPrayerEnabled(this)
 
         findViewById<TextView>(R.id.appInfoText).text = buildString {
             append(getString(R.string.app_name))
@@ -114,6 +123,18 @@ class SettingsActivity : AppCompatActivity() {
 
         upcomingSectionSwitch.setOnCheckedChangeListener { _, isChecked ->
             PreferencesHelper.setUpcomingSectionEnabled(this, isChecked)
+        }
+
+        sunrisePrayerSwitch.setOnCheckedChangeListener { _, isChecked ->
+            PreferencesHelper.setSunrisePrayerEnabled(this, isChecked)
+        }
+
+        sunnahPrayersSwitch.setOnCheckedChangeListener { _, isChecked ->
+            PreferencesHelper.setSunnahPrayersEnabled(this, isChecked)
+        }
+
+        nightPrayerSwitch.setOnCheckedChangeListener { _, isChecked ->
+            PreferencesHelper.setNightPrayerEnabled(this, isChecked)
         }
 
         notificationsSwitch.setOnCheckedChangeListener { _, isChecked ->

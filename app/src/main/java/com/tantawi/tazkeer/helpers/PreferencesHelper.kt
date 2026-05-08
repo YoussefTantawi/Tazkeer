@@ -16,6 +16,9 @@ object PreferencesHelper {
     private const val KEY_LAST_RESET_DATE = "last_reset_date"
     private const val KEY_SUMMARY_SECTION_ENABLED = "summary_section_enabled"
     private const val KEY_UPCOMING_SECTION_ENABLED = "upcoming_section_enabled"
+    private const val KEY_SUNRISE_PRAYER_ENABLED = "sunrise_prayer_enabled"
+    private const val KEY_SUNNAH_PRAYERS_ENABLED = "sunnah_prayers_enabled"
+    private const val KEY_NIGHT_PRAYER_ENABLED = "night_prayer_enabled"
     private const val KEY_SECTION_VISIBLE_PREFIX = "section_visible_"
     private const val KEY_PRAYER_COMPLETED_PREFIX = "prayer_completed_"
     private const val KEY_AZKAR_COMPLETED_PREFIX = "azkar_completed_"
@@ -72,6 +75,30 @@ object PreferencesHelper {
 
     fun setUpcomingSectionEnabled(context: Context, enabled: Boolean) {
         prefs(context).edit { putBoolean(KEY_UPCOMING_SECTION_ENABLED, enabled) }
+    }
+
+    fun isSunrisePrayerEnabled(context: Context): Boolean {
+        return prefs(context).getBoolean(KEY_SUNRISE_PRAYER_ENABLED, false)
+    }
+
+    fun setSunrisePrayerEnabled(context: Context, enabled: Boolean) {
+        prefs(context).edit { putBoolean(KEY_SUNRISE_PRAYER_ENABLED, enabled) }
+    }
+
+    fun isSunnahPrayersEnabled(context: Context): Boolean {
+        return prefs(context).getBoolean(KEY_SUNNAH_PRAYERS_ENABLED, false)
+    }
+
+    fun setSunnahPrayersEnabled(context: Context, enabled: Boolean) {
+        prefs(context).edit { putBoolean(KEY_SUNNAH_PRAYERS_ENABLED, enabled) }
+    }
+
+    fun isNightPrayerEnabled(context: Context): Boolean {
+        return prefs(context).getBoolean(KEY_NIGHT_PRAYER_ENABLED, false)
+    }
+
+    fun setNightPrayerEnabled(context: Context, enabled: Boolean) {
+        prefs(context).edit { putBoolean(KEY_NIGHT_PRAYER_ENABLED, enabled) }
     }
 
     fun getLatitude(context: Context): Double {
@@ -140,6 +167,9 @@ object PreferencesHelper {
                 .putBoolean(KEY_USE_24_HOUR_TIME, false)
                 .putBoolean(KEY_SUMMARY_SECTION_ENABLED, true)
                 .putBoolean(KEY_UPCOMING_SECTION_ENABLED, true)
+                .putBoolean(KEY_SUNRISE_PRAYER_ENABLED, false)
+                .putBoolean(KEY_SUNNAH_PRAYERS_ENABLED, false)
+                .putBoolean(KEY_NIGHT_PRAYER_ENABLED, false)
                 .remove(KEY_LAST_RESET_DATE)
         }
     }

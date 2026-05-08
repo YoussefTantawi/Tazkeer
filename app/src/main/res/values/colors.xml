@@ -15,15 +15,7 @@
     <color name="text_on_teal">#E5E7EB</color>
     <color name="text_on_gray">#1F2937</color>
 
-    <color name="error_color">#D32F2F</color>
     <color name="disabled_color">#E5E7EB</color>
-    <color name="card_green">#E5E7EB</color>
-    <color name="card_mint">#E5E7EB</color>
-    <color name="card_gold">#E5E7EB</color>
-    <color name="card_beige">#E5E7EB</color>
-    <color name="card_priority_high">#E5E7EB</color>
-    <color name="card_priority_medium">#E5E7EB</color>
-    <color name="card_priority_low">#E5E7EB</color>
     <color name="bottom_nav_light">#E5E7EB</color>
     <color name="bottom_nav_dark">#0B1D17</color>
 </resources>

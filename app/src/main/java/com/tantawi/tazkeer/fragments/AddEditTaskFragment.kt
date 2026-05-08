@@ -42,6 +42,7 @@ class AddEditTaskFragment : Fragment() {
     private lateinit var prioritySpinner: Spinner
     private lateinit var recurrenceSpinner: Spinner
     private lateinit var customDaysContainer: View
+    private lateinit var saveTaskButton: MaterialButton
     private lateinit var dayCheckBoxes: Map<String, CheckBox>
 
     private var taskId: Long? = null
@@ -88,12 +89,38 @@ class AddEditTaskFragment : Fragment() {
         setupSpinners()
         setupButtons()
 
-        if (taskId == null) {
+        if (savedInstanceState != null) {
+            if (taskId != null) {
+                view.findViewById<TextView>(R.id.fragmentTitleText).setText(R.string.edit_task)
+                saveTaskButton.isEnabled = false
+                loadTaskForEditing(taskId ?: return, fillFormAfterLoad = false)
+            }
+            restoreFormState(savedInstanceState)
+        } else if (taskId == null) {
             setDefaultTime()
         } else {
             view.findViewById<TextView>(R.id.fragmentTitleText).setText(R.string.edit_task)
+            saveTaskButton.isEnabled = false
             loadTaskForEditing(taskId ?: return)
         }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        if (!::titleEditText.isInitialized) return
+
+        outState.putString(STATE_TITLE, titleEditText.text?.toString().orEmpty())
+        outState.putString(STATE_DESCRIPTION, descriptionEditText.text?.toString().orEmpty())
+        outState.putString(STATE_CUSTOM_CATEGORY, customCategoryEditText.text?.toString().orEmpty())
+        outState.putInt(STATE_CATEGORY_POSITION, categorySpinner.selectedItemPosition)
+        outState.putInt(STATE_PRIORITY_POSITION, prioritySpinner.selectedItemPosition)
+        outState.putInt(STATE_RECURRENCE_POSITION, recurrenceSpinner.selectedItemPosition)
+        selectedHour?.let { outState.putInt(STATE_SELECTED_HOUR, it) }
+        selectedMinute?.let { outState.putInt(STATE_SELECTED_MINUTE, it) }
+        outState.putStringArrayList(
+            STATE_SELECTED_DAYS,
+            ArrayList(dayCheckBoxes.filterValues { it.isChecked }.keys)
+        )
     }
 
     private fun bindViews(view: View) {
@@ -107,6 +134,7 @@ class AddEditTaskFragment : Fragment() {
         prioritySpinner = view.findViewById(R.id.prioritySpinner)
         recurrenceSpinner = view.findViewById(R.id.recurrenceSpinner)
         customDaysContainer = view.findViewById(R.id.customDaysContainer)
+        saveTaskButton = view.findViewById(R.id.saveTaskButton)
         dayCheckBoxes = mapOf(
             DateTimeHelper.DAY_SATURDAY to view.findViewById(R.id.saturdayCheckBox),
             DateTimeHelper.DAY_SUNDAY to view.findViewById(R.id.sundayCheckBox),
@@ -169,7 +197,7 @@ class AddEditTaskFragment : Fragment() {
 
     private fun setupButtons() {
         timeButton.setOnClickListener { showTimePicker() }
-        view?.findViewById<MaterialButton>(R.id.saveTaskButton)?.setOnClickListener { saveTask() }
+        saveTaskButton.setOnClickListener { saveTask() }
         view?.findViewById<MaterialButton>(R.id.cancelTaskButton)?.setOnClickListener {
             (activity as? HomeActivity)?.closeAddEditFragment(refreshTasks = false)
         }
@@ -208,7 +236,7 @@ class AddEditTaskFragment : Fragment() {
         )
     }
 
-    private fun loadTaskForEditing(id: Long) {
+    private fun loadTaskForEditing(id: Long, fillFormAfterLoad: Boolean = true) {
         viewLifecycleOwner.lifecycleScope.launch {
             val task = withContext(Dispatchers.IO) { database.taskDao().getTaskById(id) }
             if (task == null) {
@@ -221,8 +249,38 @@ class AddEditTaskFragment : Fragment() {
                 return@launch
             }
             editingTask = task
-            fillForm(task)
+            saveTaskButton.isEnabled = true
+            if (fillFormAfterLoad) {
+                fillForm(task)
+            }
         }
+    }
+
+    private fun restoreFormState(savedInstanceState: Bundle) {
+        titleEditText.setText(savedInstanceState.getString(STATE_TITLE).orEmpty())
+        descriptionEditText.setText(savedInstanceState.getString(STATE_DESCRIPTION).orEmpty())
+        customCategoryEditText.setText(savedInstanceState.getString(STATE_CUSTOM_CATEGORY).orEmpty())
+
+        if (savedInstanceState.containsKey(STATE_SELECTED_HOUR) && savedInstanceState.containsKey(STATE_SELECTED_MINUTE)) {
+            selectedHour = savedInstanceState.getInt(STATE_SELECTED_HOUR)
+            selectedMinute = savedInstanceState.getInt(STATE_SELECTED_MINUTE)
+            updateTimeButton()
+        } else if (taskId == null) {
+            setDefaultTime()
+        }
+
+        categorySpinner.setSelection(savedInstanceState.safePosition(STATE_CATEGORY_POSITION, categoryValues.lastIndex))
+        prioritySpinner.setSelection(savedInstanceState.safePosition(STATE_PRIORITY_POSITION, priorityValues.lastIndex))
+        recurrenceSpinner.setSelection(savedInstanceState.safePosition(STATE_RECURRENCE_POSITION, recurrenceValues.lastIndex))
+
+        val selectedDays = savedInstanceState.getStringArrayList(STATE_SELECTED_DAYS)?.toSet().orEmpty()
+        dayCheckBoxes.forEach { (day, checkBox) ->
+            checkBox.isChecked = selectedDays.contains(day)
+        }
+    }
+
+    private fun Bundle.safePosition(key: String, lastIndex: Int): Int {
+        return getInt(key, 0).coerceIn(0, lastIndex)
     }
 
     private fun fillForm(task: TaskEntity) {
@@ -361,6 +419,15 @@ class AddEditTaskFragment : Fragment() {
 
     companion object {
         private const val ARG_TASK_ID = "taskId"
+        private const val STATE_TITLE = "title"
+        private const val STATE_DESCRIPTION = "description"
+        private const val STATE_CUSTOM_CATEGORY = "customCategory"
+        private const val STATE_CATEGORY_POSITION = "categoryPosition"
+        private const val STATE_PRIORITY_POSITION = "priorityPosition"
+        private const val STATE_RECURRENCE_POSITION = "recurrencePosition"
+        private const val STATE_SELECTED_HOUR = "selectedHour"
+        private const val STATE_SELECTED_MINUTE = "selectedMinute"
+        private const val STATE_SELECTED_DAYS = "selectedDays"
 
         fun newInstance(taskId: Long?): AddEditTaskFragment {
             return AddEditTaskFragment().apply {
