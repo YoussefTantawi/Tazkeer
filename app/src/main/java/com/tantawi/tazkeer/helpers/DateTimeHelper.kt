@@ -243,6 +243,14 @@ object DateTimeHelper {
         }
     }
 
+    fun priorityBackgroundRes(priority: String): Int {
+        return when (priority) {
+            PRIORITY_HIGH -> R.drawable.bg_priority_high
+            PRIORITY_MEDIUM -> R.drawable.bg_priority_medium
+            else -> R.drawable.bg_priority_low
+        }
+    }
+
     fun localizedRecurrence(context: Context, recurrence: String): String {
         return when (recurrence) {
             RECURRENCE_DAILY -> context.getString(R.string.recurrence_daily)

@@ -1,5 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Tazkeer</string>
+    <string name="onboarding_title_welcome">Welcome to Tazkeer</string>
+    <string name="onboarding_message_welcome">Plan your day with gentle reminders for tasks, prayers, and daily Azkar.</string>
+    <string name="onboarding_title_tasks">Organize daily tasks</string>
+    <string name="onboarding_message_tasks">Create one-time, daily, or custom weekly tasks and keep your day clear.</string>
+    <string name="onboarding_title_prayers">Prayer and Azkar reminders</string>
+    <string name="onboarding_message_prayers">Use prayer times, Azkar, and optional Sunnah reminders in one simple place.</string>
+    <string name="onboarding_language_title">Choose language</string>
+    <string name="onboarding_previous">Previous</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_page_count">%1$d of %2$d</string>
     <string name="home_title">Today\'s Tasks</string>
     <string name="completed_title">Completed Tasks</string>
     <string name="settings_title">Settings</string>
@@ -84,7 +95,9 @@
     <string name="settings_section_prayer_tasks">Prayer Tasks</string>
     <string name="settings_section_notifications">Notifications</string>
     <string name="settings_section_location_actions">Location &amp; App Actions</string>
+    <string name="settings_section_location">Location</string>
     <string name="settings_section_app_info">App Info</string>
+    <string name="settings_section_about_app">About / App</string>
     <string name="activate_summary_section">Summary Section</string>
     <string name="activate_upcoming_task_section">Upcoming Task Section</string>
     <string name="sunrise_prayer">Sunrise Prayer</string>
@@ -168,6 +181,7 @@
     <string name="notification_action_show_details">Show details</string>
     <string name="content_sort">Sort tasks</string>
     <string name="content_logo">Tazkeer logo</string>
+    <string name="content_onboarding_image">Onboarding image</string>
     <string name="content_delete_task">Delete task</string>
     <string name="content_edit_task">Edit task</string>
     <string name="content_complete_task">Complete task</string>

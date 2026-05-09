@@ -9,6 +9,7 @@ object PreferencesHelper {
     private const val PREFS_NAME = "tazkeer_preferences"
     private const val KEY_DARK_MODE = "dark_mode"
     private const val KEY_LANGUAGE = "language"
+    private const val KEY_ONBOARDING_COMPLETED = "onboarding_completed"
     private const val KEY_NOTIFICATIONS = "notifications"
     private const val KEY_LATITUDE = "latitude"
     private const val KEY_LONGITUDE = "longitude"
@@ -43,10 +44,22 @@ object PreferencesHelper {
         )
     }
 
+    // Returns the saved app language before Activities create their localized context.
     fun getLanguage(context: Context): String = prefs(context).getString(KEY_LANGUAGE, LANGUAGE_ENGLISH) ?: LANGUAGE_ENGLISH
 
+    // Saves the selected language so the next created Activity uses the right locale.
     fun setLanguage(context: Context, language: String) {
         prefs(context).edit { putString(KEY_LANGUAGE, language) }
+    }
+
+    // Checks whether the onboarding screen was already completed by the user.
+    fun isOnboardingCompleted(context: Context): Boolean {
+        return prefs(context).getBoolean(KEY_ONBOARDING_COMPLETED, false)
+    }
+
+    // Saves that onboarding is finished so future launches open the home screen.
+    fun setOnboardingCompleted(context: Context, completed: Boolean) {
+        prefs(context).edit { putBoolean(KEY_ONBOARDING_COMPLETED, completed) }
     }
 
     fun areNotificationsEnabled(context: Context): Boolean = prefs(context).getBoolean(KEY_NOTIFICATIONS, true)

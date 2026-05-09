@@ -69,6 +69,7 @@ class CompletedTaskAdapter(
         holder.categoryText.text = DateTimeHelper.localizedCategory(context, task.category, task.customCategory)
         holder.categoryIcon.setImageResource(DateTimeHelper.categoryIconRes(task.category))
         holder.priorityText.text = DateTimeHelper.localizedPriority(context, task.priority)
+        holder.priorityText.setBackgroundResource(DateTimeHelper.priorityBackgroundRes(task.priority))
         holder.checkBox.setOnCheckedChangeListener(null)
         holder.checkBox.isChecked = true
         holder.checkBox.setOnClickListener { onTaskUnchecked(task) }

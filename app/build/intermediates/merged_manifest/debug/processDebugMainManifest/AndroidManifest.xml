@@ -56,6 +56,10 @@
             android:exported="false" />
         <activity
             android:name="com.tantawi.tazkeer.HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Tazkeer.Starting" />
+        <activity
+            android:name="com.tantawi.tazkeer.OnboardingActivity"
             android:exported="true"
             android:theme="@style/Theme.Tazkeer.Starting" >
             <intent-filter>

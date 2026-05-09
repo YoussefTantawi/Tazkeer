@@ -72,6 +72,7 @@ class SettingsActivity : AppCompatActivity() {
         )
     }
 
+    // Loads saved preferences into the visible settings controls.
     private fun setupInitialValues() {
         findViewById<SwitchMaterial>(R.id.darkModeSwitch).isChecked = PreferencesHelper.isDarkMode(this)
         notificationsSwitch.isChecked = PreferencesHelper.areNotificationsEnabled(this)
@@ -92,6 +93,7 @@ class SettingsActivity : AppCompatActivity() {
         }
     }
 
+    // Connects every settings control to its existing preference or action.
     private fun setupSettingsActions() {
         findViewById<SwitchMaterial>(R.id.darkModeSwitch).setOnCheckedChangeListener { _, isChecked ->
             PreferencesHelper.setDarkMode(this, isChecked)
@@ -172,6 +174,7 @@ class SettingsActivity : AppCompatActivity() {
         }
     }
 
+    // Requests location if needed, then saves the current coordinates for prayer times.
     private fun updateLocationAutomatically() {
         if (!PermissionHelper.hasLocationPermission(this)) {
             PermissionHelper.requestLocationPermission(this)
@@ -195,6 +198,7 @@ class SettingsActivity : AppCompatActivity() {
         )
     }
 
+    // Refreshes cached prayer times after the saved location changes.
     private fun refreshPrayerTimes(latitude: Double, longitude: Double) {
         lifecycleScope.launch {
             val date = DateTimeHelper.apiDate()
@@ -219,6 +223,7 @@ class SettingsActivity : AppCompatActivity() {
         }
     }
 
+    // Opens WhatsApp or the browser with the localized contact message.
     private fun contactUs() {
         val message = getString(R.string.contact_message)
         val whatsappUrl = "${getString(R.string.whatsapp_fallback)}?text=${Uri.encode(message)}"
@@ -234,6 +239,7 @@ class SettingsActivity : AppCompatActivity() {
         }
     }
 
+    // Opens Android's share sheet with the app promotion text.
     private fun shareApp() {
         val shareIntent = Intent(Intent.ACTION_SEND).apply {
             type = "text/plain"
@@ -247,6 +253,7 @@ class SettingsActivity : AppCompatActivity() {
         }
     }
 
+    // Resets saved settings after canceling currently scheduled reminders.
     private fun resetPreferences() {
         lifecycleScope.launch {
             withContext(Dispatchers.IO) {
@@ -260,6 +267,7 @@ class SettingsActivity : AppCompatActivity() {
         }
     }
 
+    // Restarts the task stack so language and theme changes apply cleanly.
     private fun restartAppToHome() {
         val intent = Intent(this, HomeActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
@@ -267,6 +275,7 @@ class SettingsActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    // Continues the related settings action after Android returns a permission result.
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == PermissionHelper.REQUEST_LOCATION) {

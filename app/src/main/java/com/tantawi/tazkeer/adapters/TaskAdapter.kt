@@ -48,6 +48,7 @@ class TaskAdapter(
         holder.categoryText.text = DateTimeHelper.localizedCategory(context, task.category, task.customCategory)
         holder.categoryIcon.setImageResource(DateTimeHelper.categoryIconRes(task.category))
         holder.priorityText.text = DateTimeHelper.localizedPriority(context, task.priority)
+        holder.priorityText.setBackgroundResource(DateTimeHelper.priorityBackgroundRes(task.priority))
 
         val isAzkarTask = DateTimeHelper.normalizeCategory(task.category) == DateTimeHelper.CATEGORY_AZKAR
         val isProtectedTask = DateTimeHelper.isProtectedCategory(task.category)

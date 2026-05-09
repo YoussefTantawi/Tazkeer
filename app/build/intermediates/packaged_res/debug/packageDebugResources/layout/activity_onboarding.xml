@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    android:paddingStart="24dp"
+    android:paddingTop="32dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="28dp">
+
+    <ImageView
+        android:id="@+id/onboardingImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/content_onboarding_image"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/onboardingTitleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/onboardingTitleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/onboardingMessageText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onboardingImageView" />
+
+    <TextView
+        android:id="@+id/onboardingMessageText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/onboardingLanguageTitleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onboardingTitleText" />
+
+    <TextView
+        android:id="@+id/onboardingLanguageTitleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:text="@string/onboarding_language_title"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/onboardingEnglishButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onboardingMessageText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/onboardingEnglishButton"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="6dp"
+        android:text="@string/english"
+        android:textAllCaps="false"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@id/onboardingPageIndicatorText"
+        app:layout_constraintRight_toLeftOf="@id/onboardingArabicButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onboardingLanguageTitleText"
+        app:strokeColor="@color/green" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/onboardingArabicButton"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="6dp"
+        android:text="@string/arabic"
+        android:textAllCaps="false"
+        app:cornerRadius="16dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/onboardingEnglishButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/onboardingEnglishButton"
+        app:strokeColor="@color/green" />
+
+    <TextView
+        android:id="@+id/onboardingPageIndicatorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/onboardingPreviousButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onboardingEnglishButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/onboardingPreviousButton"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/onboarding_previous"
+        android:textAllCaps="false"
+        android:textColor="@color/text_on_gray"
+        app:backgroundTint="@color/disabled_color"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/onboardingNextButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onboardingPageIndicatorText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/onboardingNextButton"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/onboarding_next"
+        android:textAllCaps="false"
+        android:textColor="@color/text_on_teal"
+        app:backgroundTint="@color/green"
+        app:cornerRadius="16dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/onboardingPreviousButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/onboardingPreviousButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

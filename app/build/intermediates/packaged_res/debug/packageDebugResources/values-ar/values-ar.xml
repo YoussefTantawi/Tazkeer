@@ -58,6 +58,7 @@
     <string name="content_delete_task">حذف المهمة</string>
     <string name="content_edit_task">تعديل المهمة</string>
     <string name="content_logo">شعار تذكير</string>
+    <string name="content_onboarding_image">صورة التعريف</string>
     <string name="content_search_azkar">البحث عن الاذكار</string>
     <string name="content_sort">ترتيب المهام</string>
     <string name="content_uncomplete_task">إعادة المهمة للشاشة الرئيسية</string>
@@ -107,6 +108,17 @@
     <string name="notifications">الإشعارات</string>
     <string name="notifications_disabled">تم إيقاف الإشعارات</string>
     <string name="notifications_enabled">تم تشغيل الإشعارات</string>
+    <string name="onboarding_get_started">ابدأ</string>
+    <string name="onboarding_language_title">اختر اللغة</string>
+    <string name="onboarding_message_prayers">تابع مواقيت الصلاة والأذكار والسنن الاختيارية في مكان واحد بسيط.</string>
+    <string name="onboarding_message_tasks">أضف مهام لمرة واحدة أو يومية أو لأيام محددة وحافظ على وضوح يومك.</string>
+    <string name="onboarding_message_welcome">نظم يومك بتذكيرات هادئة للمهام والصلوات والأذكار اليومية.</string>
+    <string name="onboarding_next">التالي</string>
+    <string name="onboarding_page_count">%1$d من %2$d</string>
+    <string name="onboarding_previous">السابق</string>
+    <string name="onboarding_title_prayers">تذكيرات الصلاة والأذكار</string>
+    <string name="onboarding_title_tasks">نظم مهامك اليومية</string>
+    <string name="onboarding_title_welcome">مرحبا بك في تذكير</string>
     <string name="permission_required">الصلاحية مطلوبة</string>
     <string name="pick_time">اختيار الوقت</string>
     <string name="prayer_asr">العصر</string>
@@ -149,9 +161,11 @@
     <string name="section_summary">الملخص</string>
     <string name="section_tasks">المهام</string>
     <string name="section_upcoming_task">المهمة القادمة</string>
+    <string name="settings_section_about_app">حول التطبيق</string>
     <string name="settings_section_app_info">معلومات التطبيق</string>
     <string name="settings_section_appearance">المظهر</string>
     <string name="settings_section_home_sections">أقسام الصفحة الرئيسية</string>
+    <string name="settings_section_location">الموقع</string>
     <string name="settings_section_location_actions">الموقع وإجراءات التطبيق</string>
     <string name="settings_section_notifications">الإشعارات</string>
     <string name="settings_section_prayer_tasks">مهام الصلاة</string>

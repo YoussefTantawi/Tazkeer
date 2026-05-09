@@ -4,7 +4,7 @@
             "outputFile": "com.tantawi.tazkeer.app-mergeDebugResources-42:/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tantawi\\.gradle\\caches\\9.5.0\\transforms\\b1a93cb30245cccf148eb9942f7004bb\\transformed\\appcompat-1.7.1\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\9.5.0\\transforms\\b1a93cb30245cccf148eb9942f7004bb\\transformed\\appcompat-1.7.1\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Tantawi\\.gradle\\caches\\9.5.0\\transforms\\d033398193e9145b5bb7346d6621add2\\transformed\\material-1.13.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\9.5.0\\transforms\\d033398193e9145b5bb7346d6621add2\\transformed\\material-1.13.0\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Tantawi\\.gradle\\caches\\9.5.0\\transforms\\08069ffa291858b00d4c24ebe9cf51e1\\transformed\\play-services-basement-18.4.0\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\9.5.0\\transforms\\52571d1dc98a42adf149370099a347ff\\transformed\\core-1.18.0\\res\\values-am\\values-am.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "127",
-                        "endOffsets": "322"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,248,345,444,540,642,742",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "143,243,340,439,535,637,737,838"
                     },
                     "to": {
-                        "startLines": "55",
-                        "startColumns": "4",
-                        "startOffsets": "5104",
-                        "endColumns": "131",
-                        "endOffsets": "5231"
+                        "startLines": "37,38,39,40,41,42,43,139",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3224,3317,3417,3514,3613,3709,3811,11629",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "3312,3412,3509,3608,3704,3806,3906,11725"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Tantawi\\.gradle\\caches\\9.5.0\\transforms\\498401315308c950431c70f2db395b47\\transformed\\play-services-base-18.5.0\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\9.5.0\\transforms\\498401315308c950431c70f2db395b47\\transformed\\play-services-base-18.5.0\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -74,20 +74,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Tantawi\\.gradle\\caches\\9.5.0\\transforms\\52571d1dc98a42adf149370099a347ff\\transformed\\core-1.18.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\9.5.0\\transforms\\08069ffa291858b00d4c24ebe9cf51e1\\transformed\\play-services-basement-18.4.0\\res\\values-am\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,148,248,345,444,540,642,742",
-                        "endColumns": "92,99,96,98,95,101,99,100",
-                        "endOffsets": "143,243,340,439,535,637,737,838"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "127",
+                        "endOffsets": "322"
                     },
                     "to": {
-                        "startLines": "37,38,39,40,41,42,43,139",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3224,3317,3417,3514,3613,3709,3811,11629",
-                        "endColumns": "92,99,96,98,95,101,99,100",
-                        "endOffsets": "3312,3412,3509,3608,3704,3806,3906,11725"
+                        "startLines": "55",
+                        "startColumns": "4",
+                        "startOffsets": "5104",
+                        "endColumns": "131",
+                        "endOffsets": "5231"
                     }
                 }
             ]

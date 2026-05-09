@@ -9,7 +9,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:cardBackgroundColor="?attr/colorSurface"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="16dp"
         app:cardElevation="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fillViewport="false">
+            android:fillViewport="true">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                     android:text="@string/pick_time"
                     android:textColor="@color/text_on_teal"
                     app:backgroundTint="@color/green"
-                    app:cornerRadius="8dp"
+                    app:cornerRadius="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/descriptionInputLayout" />
@@ -198,42 +198,56 @@
                             android:id="@+id/saturdayCheckBox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@drawable/selector_checkbox_rounded"
+                            android:buttonTint="@color/green"
                             android:text="@string/day_saturday" />
 
                         <CheckBox
                             android:id="@+id/sundayCheckBox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@drawable/selector_checkbox_rounded"
+                            android:buttonTint="@color/green"
                             android:text="@string/day_sunday" />
 
                         <CheckBox
                             android:id="@+id/mondayCheckBox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@drawable/selector_checkbox_rounded"
+                            android:buttonTint="@color/green"
                             android:text="@string/day_monday" />
 
                         <CheckBox
                             android:id="@+id/tuesdayCheckBox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@drawable/selector_checkbox_rounded"
+                            android:buttonTint="@color/green"
                             android:text="@string/day_tuesday" />
 
                         <CheckBox
                             android:id="@+id/wednesdayCheckBox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@drawable/selector_checkbox_rounded"
+                            android:buttonTint="@color/green"
                             android:text="@string/day_wednesday" />
 
                         <CheckBox
                             android:id="@+id/thursdayCheckBox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@drawable/selector_checkbox_rounded"
+                            android:buttonTint="@color/green"
                             android:text="@string/day_thursday" />
 
                         <CheckBox
                             android:id="@+id/fridayCheckBox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:button="@drawable/selector_checkbox_rounded"
+                            android:buttonTint="@color/green"
                             android:text="@string/day_friday" />
                     </GridLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -246,7 +260,7 @@
                     android:text="@string/save"
                     android:textColor="@color/text_on_teal"
                     app:backgroundTint="@color/green"
-                    app:cornerRadius="8dp"
+                    app:cornerRadius="16dp"
                     app:layout_constraintEnd_toStartOf="@id/cancelTaskButton"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/customDaysContainer" />
@@ -259,7 +273,7 @@
                     android:text="@string/cancel"
                     android:textColor="@color/text_on_gray"
                     app:backgroundTint="@color/disabled_color"
-                    app:cornerRadius="8dp"
+                    app:cornerRadius="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/saveTaskButton"
                     app:layout_constraintTop_toTopOf="@id/saveTaskButton" />

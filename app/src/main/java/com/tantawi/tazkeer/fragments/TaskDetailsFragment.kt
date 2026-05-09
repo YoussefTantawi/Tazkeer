@@ -69,7 +69,9 @@ class TaskDetailsFragment : Fragment() {
         view.findViewById<TextView>(R.id.detailsTimeText).text = DateTimeHelper.displayTime(requireContext(), task.timeMillis)
         view.findViewById<TextView>(R.id.detailsCategoryText).text =
             DateTimeHelper.localizedCategory(requireContext(), task.category, task.customCategory)
-        view.findViewById<TextView>(R.id.detailsPriorityText).text = DateTimeHelper.localizedPriority(requireContext(), task.priority)
+        val priorityText = view.findViewById<TextView>(R.id.detailsPriorityText)
+        priorityText.text = DateTimeHelper.localizedPriority(requireContext(), task.priority)
+        priorityText.setBackgroundResource(DateTimeHelper.priorityBackgroundRes(task.priority))
         view.findViewById<TextView>(R.id.detailsRecurrenceText).text =
             DateTimeHelper.localizedRecurrence(requireContext(), task.recurrenceType)
     }

@@ -38,6 +38,11 @@
 
         <activity
             android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Tazkeer.Starting" />
+
+        <activity
+            android:name=".OnboardingActivity"
             android:exported="true"
             android:theme="@style/Theme.Tazkeer.Starting">
             <intent-filter>
